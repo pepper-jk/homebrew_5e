@@ -1,3 +1,5 @@
+> You can find the pdf version with full stat blocks [here](https://github.com/pepper-jk/homebrew_5e/releases/tag/mounts_0.1.0).
+
 # mounts
 
 The following mounts are designed to be used by the mounted combat rules introduces in the article "Jumping on Mounted Combat" by Willy Abeel in the first issue of [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs) produced by MCDM.
