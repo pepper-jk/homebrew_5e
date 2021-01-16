@@ -1,9 +1,5 @@
 # mounts
 
-> **Phantom Steed Variant**
->
-> The spirit summoned by the phantom steed spell can take the form of a **riding horse mount** over the standard riding horse, allowing the caster to utilize this creature’s new features.
-
 > **Find Steed Variant**
 >
 > The spirit summoned by the find steed spell can take the form of a **mount** over the standard beast, allowing the caster to utilize the new features of the following creatures. This includes the camel, elk, mastiff, pony and warhorse mounts.
@@ -52,6 +48,10 @@
 - **Rear Up (1/Day).** The pony rears up, whirling its hooves and inflicting disadvantage on an opponents next attack roll and any attack rolls against it or its rider until the beginning of its next turn.
 ### Reaction
 - **Step Out.** If the pony is approached by an opponent from the rear, meaning a creature enters the space behind it, the rider may use their reaction and lat the pony perform a **Combat Stomp** as an attack of opportunity.
+
+> **Phantom Steed Variant**
+>
+> The spirit summoned by the phantom steed spell can take the form of a **riding horse mount** over the standard riding horse, allowing the caster to utilize this creature’s new features.
 
 ## Riding Horse Mount
 - based on **riding horse** stats
