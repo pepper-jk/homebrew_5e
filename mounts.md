@@ -12,7 +12,7 @@ For now I focused on the **riding horse mount**, as my players will get some soo
 
 ## Camel Mount
 - based on **camel** stats
-- **Temporary Hit Points** gains temporary hit points equal to 4 times the rider’s character level or challenge rating
+- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
 - **Mounted.** During a long rest, the camel can designate one creature that rode it within the last 10 days as its rider. The camel gains a number of temporary hit points based on the rider’s level or challenge rating after completing the long rest. The camel uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects.
 ### Actions
 - **Bite.** Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one target. Hit: 9 (2d4 + 3) bludgeoning damage. If the target is a Medium or smaller creature, the camel tries to grab onto the targets equipment and the target must succeed on a DC 9 + PB Dexterity saving throw or suffer a -2 penalty to AC until it uses have its movement action to fix his armor.
@@ -22,7 +22,7 @@ For now I focused on the **riding horse mount**, as my players will get some soo
 
 ## Elk Mount
 - based on **elk** stats
-- **Temporary Hit Points** gains temporary hit points equal to 4 times the rider’s character level or challenge rating
+- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
 - **Mounted.** During a long rest, the elk can designate one creature that rode it within the last 10 days as its rider. The elk gains a number of temporary hit points based on the rider’s level or challenge rating after completing the long rest. The elk uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects.
 ### Actions
 - **Combat Ram.** Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage, or 13 (3d6 + 3) bludgeoning damage if it was moving 20 foot in a strait line. If the target is a Large or smaller creature, it must succeed on a DC 11 + PB Strength saving throw or be knocked prone.
@@ -38,7 +38,7 @@ For now I focused on the **riding horse mount**, as my players will get some soo
 
 ## Mastiff Mount
 - based on **mastiff** stats
-- **Temporary Hit Points** gains temporary hit points equal to 4 times the rider’s character level or challenge rating
+- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
 - **Mounted.** During a long rest, the mastiff can designate one creature that rode it within the last 10 days as its rider. The mastiff gains a number of temporary hit points based on the rider’s level or challenge rating after completing the long rest. The mastiff uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects.
 ### Actions
 - **Bite.** Melee Weapon Attack: +1 + PB to hit, reach 5 ft., one target. Hit: 9 (2d4 + 1) piercing damage. If the target is a Medium or smaller creature, it must succeed on a DC 9 + PB Strength saving throw or be knocked prone.
@@ -47,7 +47,7 @@ For now I focused on the **riding horse mount**, as my players will get some soo
 
 ## Pony Mount
 - based on **pony** stats
-- **Temporary Hit Points** gains temporary hit points equal to 4 times the rider’s character level or challenge rating
+- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
 - **Mounted.** During a long rest, the pony can designate one creature that rode it within the last 10 days as its rider. The pony gains a number of temporary hit points based on the rider’s level or challenge rating after completing the long rest. The pony uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects.
 ### Actions
 - **Combat Stomp.** Melee Weapon Attack: +2 + PB to hit, reach 5 ft., one target. Hit: 8 (2d4 + 2) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 10 + PB Strength saving throw or be knocked prone.
@@ -61,7 +61,7 @@ For now I focused on the **riding horse mount**, as my players will get some soo
 
 ## Riding Horse Mount
 - based on **riding horse** stats
-- **Temporary Hit Points** gains temporary hit points equal to 4 times the rider’s character level or challenge rating
+- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
 - **Mounted.** During a long rest, the horse can designate one creature that rode it within the last 10 days as its rider. The horse gains a number of temporary hit points based on the rider’s level or challenge rating after completing the long rest. The horse uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects.
 - **Horsepower.** The horse begins charging if it moves at least 15 feet in a straight line and continues charging until it stops moving forward. While charging, the horse’s long jump is up to 30 feet and it ignores difficult terrain.
 ### Actions
