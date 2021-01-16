@@ -1,0 +1,472 @@
+\documentclass[letterpaper,twocolumn,openany,nodeprecatedcode]{dndbook}
+
+% Use babel or polyglossia to automatically redefine macros for terms
+% Armor Class, Level, etc...
+% Default output is in English; captions are located in lib/dndstrings.sty.
+% If no captions exist for a language, English will be used.
+%1. To load a language with babel:
+%	\usepackage[<lang>]{babel}
+%2. To load a language with polyglossia:
+%	\usepackage{polyglossia}
+%	\setdefaultlanguage{<lang>}
+\usepackage[english]{babel}
+%\usepackage[italian]{babel}
+% For further options (multilanguage documents, hypenations, language environments...)
+% please refer to babel/polyglossia's documentation.
+
+\usepackage[utf8]{inputenc}
+\usepackage[singlelinecheck=false]{caption}
+\usepackage{lipsum}
+\usepackage{listings}
+\usepackage{shortvrb}
+\usepackage{stfloats}
+\usepackage{hyperref}
+
+\captionsetup[table]{labelformat=empty,font={sf,sc,bf,},skip=0pt}
+
+\MakeShortVerb{|}
+
+\lstset{%
+  basicstyle=\ttfamily,
+  language=[LaTeX]{TeX},
+  breaklines=true,
+}
+
+\title{The Dark \LaTeX{} \\
+\large An Example of the dndbook Class}
+\author{The rpgTeX Team}
+\date{2020/04/21}
+
+\begin{document}
+
+\frontmatter
+
+%\maketitle
+
+%\tableofcontents
+
+\mainmatter
+
+\chapter{Mounts}
+
+The following mounts are designed to be used by the mounted combat rules introduces in the article "Jumping on Mounted Combat" by Willy Abeel in the first issue of \href{https://www.youtube.com/watch?v=oid4QMMXjfs}{Arcadia} produced by MCDM.
+
+For now I focused on some basic mounts. However, I plan to work on some more mounts in the future, wyvern mounts, fey (touched) mounts and more beast based mounts for my druid player to turn into.
+
+\section{Basic Mounts}
+
+If adventurers travel long distances they usually rely on mounts to cover my distance. The most common mount would be the \textbf{riding horse}. However, some races require a smaller mount, like a \textbf{pony} or \textbf{mastiff}, to get around and a spellcaster may cast find steed to get his first mount. This section covers the most common basic mounts a adventuring party may start out with.
+
+\begin{DndComment}{Find Steed Variant}
+    The spirit summoned by the find steed spell can take the form of a \textbf{mount} over the standard beast, allowing the caster to utilize the new features of the following creatures. This includes the camel, elk, mastiff, pony and warhorse mounts.
+\end{DndComment}
+
+%\begin{DndMonster}{Camel Mount}
+\begin{DndMonster}[float*=b,width=\textwidth + 8pt]{Camel Mount}
+  \begin{multicols}{2}
+    \DndMonsterType{Large mounted beast, unaligned}
+
+    % If you want to use commas in the key values, enclose the values in braces.
+    \DndMonsterBasics[
+        armor-class = {9 + PB},
+        hit-points  = {\DndDice{2d10 + 4}},
+        %{Temporary Hit Points} = {4 times the rider’s character level or challenge rating},
+        speed       = {50 ft.},
+      ]
+
+    \DndMonsterAbilityScores[
+        str = 16,
+        dex = 8,
+        con = 14,
+        int = 2,
+        wis = 8,
+        cha = 5,
+      ]
+
+    \DndMonsterDetails[
+        %saving-throws = {Str +0, Dex +0, Con +0, Int +0, Wis +0, Cha +0},
+        %skills = {Acrobatics +0, Animal Handling +0, Arcana +0, Athletics +0, Deception +0, History +0, Insight +0, Intimidation +0, Investigation +0, Medicine +0, Nature +0, Perception +0, Performance +0, Persuasion +0, Religion +0, Sleight of Hand +0, Stealth +0, Survival +0},
+        %damage-vulnerabilities = {cold},
+        %damage-resistances = {bludgeoning, piercing, and slashing from nonmagical attacks},
+        %damage-immunities = {poison},
+        %condition-immunities = {poisoned},
+        senses = {passive Perception 9},
+        languages = {-},
+        challenge = 1/8,
+      ]
+
+    % Traits
+    \DndMonsterAction{Mounted}
+    During a long rest, the camel can designate one creature that rode it within the last 10 days as its rider. The camel gains \textbf{temporary hit points} equal to 4 times the rider’s character level or challenge rating after completing the long rest. The camel uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects.
+
+    \DndMonsterSection{Actions}
+
+    %Default values are shown commented out
+    \DndMonsterAttack[
+      name=Bite,
+      distance=melee, % valid options are in the set {both,melee,ranged},
+      %type=weapon, %valid options are in the set {weapon,spell}
+      mod={+3 + PB},
+      %reach=5,
+      %range=20/60,
+      %targets=one target,
+      dmg=\DndDice{2d4 + 3},
+      dmg-type=bludgeoning,
+      %plus-dmg=,
+      %plus-dmg-type=,
+      %or-dmg=,
+      %or-dmg-when=,
+      extra={. If the target is a Medium or smaller creature, the camel tries to grab onto the targets equipment and the target must succeed on a DC 9 + PB Dexterity saving throw or suffer a -2 penalty to AC until it uses have its movement action to fix his armor}
+    ]
+
+    \DndMonsterAction{Herd Trample (3/Day)}
+    If the camel moves 15 ft. towards an enemy and at least one other camel joins it, they overrun enemies in their path. While they move together they gain resistance to bludgeoning, piercing, and slashing damage, doesn’t provoke opportunity attacks when it moves out of an enemy’s reach, and can move through spaces occupied by other creatures. Each creature in the herds way must make a DC 11 + PB Strength saving throw or take 13 (2d8 + 4) bludgeoning damage, plus 5 (1d8) for each additional camel above two, and be knocked prone. On a successful save, the creature takes half as much damage and isn’t knocked prone.
+
+    \DndMonsterSection{Reactions}
+
+    \DndMonsterAction{Join the Herd}
+    If another Camel starts the \textbf{Herd Trample} action, a rider may use their reaction to join the herd. First the camel needs to move up to the other camel and can move with the herd as far as its movement allows. Any movement used in this reaction is subtracted from the movement for the camels next turn.
+
+  \end{multicols}
+\end{DndMonster}
+
+\begin{DndMonster}[float*=b,width=\textwidth + 8pt]{Elk Mount}
+  \begin{multicols}{2}
+    \DndMonsterType{Large mounted beast, unaligned}
+
+    % If you want to use commas in the key values, enclose the values in braces.
+    \DndMonsterBasics[
+        armor-class = {10 + PB},
+        hit-points  = {\DndDice{2d10 + 2}},
+        %{Temporary Hit Points} = {4 times the rider’s character level or challenge rating},
+        speed       = {50 ft.},
+      ]
+
+    \DndMonsterAbilityScores[
+        str = 16,
+        dex = 10,
+        con = 12,
+        int = 2,
+        wis = 10,
+        cha = 6,
+      ]
+
+    \DndMonsterDetails[
+        %saving-throws = {Str +0, Dex +0, Con +0, Int +0, Wis +0, Cha +0},
+        %skills = {Acrobatics +0, Animal Handling +0, Arcana +0, Athletics +0, Deception +0, History +0, Insight +0, Intimidation +0, Investigation +0, Medicine +0, Nature +0, Perception +0, Performance +0, Persuasion +0, Religion +0, Sleight of Hand +0, Stealth +0, Survival +0},
+        %damage-vulnerabilities = {cold},
+        %damage-resistances = {bludgeoning, piercing, and slashing from nonmagical attacks},
+        %damage-immunities = {poison},
+        %condition-immunities = {poisoned},
+        senses = {passive Perception 9},
+        languages = {-},
+        challenge = 1/4,
+      ]
+
+    % Traits
+    \DndMonsterAction{Charge}
+    If the elk moves at least 15 feet straight toward a target it starts charging.
+
+    \DndMonsterAction{Mounted}
+    During a long rest, the elk can designate one creature that rode it within the last 10 days as its rider. The elk gains \textbf{temporary hit points} equal to 4 times the rider’s character level or challenge rating after completing the long rest. The elk uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects.
+
+    \DndMonsterSection{Actions}
+
+    %Default values are shown commented out
+    \DndMonsterAttack[
+      name=Combat Ram,
+      distance=melee, % valid options are in the set {both,melee,ranged},
+      %type=weapon, %valid options are in the set {weapon,spell}
+      mod={+3 + PB},
+      %reach=5,
+      %range=20/60,
+      %targets=one target,
+      dmg=\DndDice{1d6 + 3},
+      dmg-type=bludgeoning,
+      %plus-dmg=,
+      %plus-dmg-type=,
+      or-dmg=\DndDice{3d6 + 3},
+      or-dmg-when={if the elk is charging on the same turn.},
+      extra={ If the target is a Large or smaller creature, it must succeed on a DC 11 + PB Strength saving throw or be knocked prone}
+    ]
+
+    \DndMonsterAction{Wild Charge (3/Day)}
+    The elk gains resistance to bludgeoning, piercing, and slashing damage, doesn’t provoke opportunity attacks when it moves out of an enemy’s reach, and can move through spaces occupied by other creatures until the end of its turn. Each creature in the elk’s way must make a DC 11 + PB Strength saving throw or take 13 (3d6 + 3) bludgeoning damage and be knocked prone. On a successful save, the creature takes half as much damage and isn’t knocked prone.
+
+    \DndMonsterSection{Reactions}
+
+    \DndMonsterAction{Antler Parry}
+    The elk opposes disadvantage against one melee attack that would hit it or its rider. To do so, the elk must see the attacker and use his antlers to fend the foe off.
+
+    \DndMonsterAction{Dogfight}
+    The elk adds 2 to its AC and the AC of its rider against all melee attacks from one creature that would hit it or its rider. To do so, the elk must see the attacker and use his antlers to fend the foe off.
+
+  \end{multicols}
+\end{DndMonster}
+
+\begin{DndMonster}[float*=b,width=\textwidth + 8pt]{Mastiff Mount}
+  \begin{multicols}{2}
+    \DndMonsterType{Large mounted beast, unaligned}
+
+    % If you want to use commas in the key values, enclose the values in braces.
+    \DndMonsterBasics[
+        armor-class = {12 + PB},
+        hit-points  = {\DndDice{1d8 + 1}},
+        %{Temporary Hit Points} = {4 times the rider’s character level or challenge rating},
+        speed       = {40 ft.},
+      ]
+
+    \DndMonsterAbilityScores[
+        str = 13,
+        dex = 14,
+        con = 12,
+        int = 3,
+        wis = 12,
+        cha = 7,
+      ]
+
+    \DndMonsterDetails[
+        %saving-throws = {Str +0, Dex +0, Con +0, Int +0, Wis +0, Cha +0},
+        skills = {Perception +1 + PB},
+        %damage-vulnerabilities = {cold},
+        %damage-resistances = {bludgeoning, piercing, and slashing from nonmagical attacks},
+        %damage-immunities = {poison},
+        %condition-immunities = {poisoned},
+        senses = {passive Perception 13},
+        languages = {-},
+        challenge = 1/8,
+      ]
+
+    % Traits
+    \DndMonsterAction{Mounted}
+    During a long rest, the mastiff can designate one creature that rode it within the last 10 days as its rider. The mastiff gains \textbf{temporary hit points} equal to 4 times the rider’s character level or challenge rating after completing the long rest. The mastiff uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects.
+
+    \DndMonsterSection{Actions}
+
+    %Default values are shown commented out
+    \DndMonsterAttack[
+      name=Bite,
+      distance=melee, % valid options are in the set {both,melee,ranged},
+      %type=weapon, %valid options are in the set {weapon,spell}
+      mod={+1 + PB},
+      %reach=5,
+      %range=20/60,
+      %targets=one target,
+      dmg=\DndDice{2d4 + 1},
+      dmg-type=piercing,
+      %plus-dmg=,
+      %plus-dmg-type=,
+      %or-dmg=,
+      %or-dmg-when=,
+      extra={. If the target is a Medium or smaller creature, it must succeed on a DC 9 + PB Strength saving throw or be knocked prone}
+    ]
+
+    \DndMonsterAttack[
+      name=Bite Down,
+      distance=melee, % valid options are in the set {both,melee,ranged},
+      %type=weapon, %valid options are in the set {weapon,spell}
+      mod={+1 + PB},
+      %reach=5,
+      %range=20/60,
+      %targets=one target,
+      dmg=\DndDice{2d4 + 1},
+      dmg-type=piercing,
+      %plus-dmg=,
+      %plus-dmg-type=,
+      %or-dmg=,
+      %or-dmg-when=,
+      extra={. The target is grappled (escape DC 9 + PB). Until this grapple ends, the target is restrained and the Mastiff can use its action to deal 9 (2d4 + 1) piercing damage. The mastiff can grapple only one target at a time}
+    ]
+
+    \DndMonsterAction{Sniff}
+    The mastiff sniffs out targets it can not see. It makes a Wisdom (Perception) check with advantage due to its \textit{Keen Hearing and Smell}. If the target is within 30ft. of the mastiff during the mastiffs turn, the target does not benefit from being hidden or invisible against the mastiff and its rider until the start of its next turn.
+
+  \end{multicols}
+\end{DndMonster}
+
+\begin{DndMonster}[float*=b,width=\textwidth + 8pt]{Pony Mount}
+  \begin{multicols}{2}
+    \DndMonsterType{Medium mounted beast, unaligned}
+
+    % If you want to use commas in the key values, enclose the values in braces.
+    \DndMonsterBasics[
+        armor-class = {10 + PB},
+        hit-points  = {\DndDice{2d8 + 2}},
+        %{Temporary Hit Points} = {4 times the rider’s character level or challenge rating},
+        speed       = {40 ft.},
+      ]
+
+    \DndMonsterAbilityScores[
+        str = 15,
+        dex = 10,
+        con = 13,
+        int = 2,
+        wis = 11,
+        cha = 7,
+      ]
+
+    \DndMonsterDetails[
+        %saving-throws = {Str +0, Dex +0, Con +0, Int +0, Wis +0, Cha +0},
+        %skills = {Perception +1 + PB},
+        %damage-vulnerabilities = {cold},
+        %damage-resistances = {bludgeoning, piercing, and slashing from nonmagical attacks},
+        %damage-immunities = {poison},
+        %condition-immunities = {poisoned},
+        senses = {passive Perception 10},
+        languages = {-},
+        challenge = 1/8,
+      ]
+
+    % Traits
+    \DndMonsterAction{Mounted}
+    During a long rest, the pony can designate one creature that rode it within the last 10 days as its rider. The pony gains \textbf{temporary hit points} equal to 4 times the rider’s character level or challenge rating after completing the long rest. The pony uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects.
+
+    \DndMonsterSection{Actions}
+
+    %Default values are shown commented out
+    \DndMonsterAttack[
+      name=Combat Stomp,
+      distance=melee, % valid options are in the set {both,melee,ranged},
+      %type=weapon, %valid options are in the set {weapon,spell}
+      mod={+2 + PB},
+      %reach=5,
+      %range=20/60,
+      %targets=one target,
+      dmg=\DndDice{2d4 + 2},
+      dmg-type=bludgeoning,
+      %plus-dmg=,
+      %plus-dmg-type=,
+      %or-dmg=,
+      %or-dmg-when=,
+      extra={. If the target is a Medium or smaller creature, it must succeed on a DC 10 + PB Strength saving throw or be knocked prone.}
+    ]
+
+    \DndMonsterAction{Rear Up (1/Day)}
+    The pony rears up, whirling its hooves and inflicting disadvantage on an opponents next attack roll and any attack rolls against it or its rider until the beginning of its next turn.
+
+    \DndMonsterSection{Reactions}
+
+    \DndMonsterAction{Step Out}
+    If the pony is approached by an opponent from the rear, meaning a creature enters the space behind it, the rider may use their reaction and lat the pony perform a \textbf{Combat Stomp} as an attack of opportunity.
+
+  \end{multicols}
+\end{DndMonster}
+
+\begin{DndComment}{Phantom Steed Variant}
+    The spirit summoned by the phantom steed spell can take the form of a \textbf{riding horse mount} over the standard riding horse, allowing the caster to utilize this creature’s new features.
+\end{DndComment}
+
+\begin{DndMonster}[float*=b,width=\textwidth + 8pt]{Riding Horse Mount}
+  \begin{multicols}{2}
+    \DndMonsterType{Medium mounted beast, unaligned}
+
+    % If you want to use commas in the key values, enclose the values in braces.
+    \DndMonsterBasics[
+        armor-class = {10 + PB},
+        hit-points  = {\DndDice{2d10 + 2}},
+        %{Temporary Hit Points} = {4 times the rider’s character level or challenge rating},
+        speed       = {60 ft.},
+      ]
+
+    \DndMonsterAbilityScores[
+        str = 16,
+        dex = 10,
+        con = 12,
+        int = 2,
+        wis = 11,
+        cha = 7,
+      ]
+
+    \DndMonsterDetails[
+        %saving-throws = {Str +0, Dex +0, Con +0, Int +0, Wis +0, Cha +0},
+        %skills = {Perception +1 + PB},
+        %damage-vulnerabilities = {cold},
+        %damage-resistances = {bludgeoning, piercing, and slashing from nonmagical attacks},
+        %damage-immunities = {poison},
+        %condition-immunities = {poisoned},
+        senses = {passive Perception 10},
+        languages = {-},
+        challenge = 1/4,
+      ]
+
+    % Traits
+    \DndMonsterAction{Mounted}
+    During a long rest, the horse can designate one creature that rode it within the last 10 days as its rider. The horse gains \textbf{temporary hit points} equal to 4 times the rider’s character level or challenge rating after completing the long rest. The horse uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects.
+
+    \DndMonsterSection{Actions}
+
+    %Default values are shown commented out
+    \DndMonsterAttack[
+      name=Combat Stomp,
+      distance=melee, % valid options are in the set {both,melee,ranged},
+      %type=weapon, %valid options are in the set {weapon,spell}
+      mod={+2 + PB},
+      %reach=5,
+      %range=20/60,
+      %targets=one target,
+      dmg=\DndDice{2d4 + 3},
+      dmg-type=bludgeoning,
+      %plus-dmg=,
+      %plus-dmg-type=,
+      %or-dmg=,
+      %or-dmg-when=,
+      extra={. If the target is a Medium or smaller creature, it must succeed on a DC 11 + PB Strength saving throw or be knocked prone.}
+    ]
+
+    \DndMonsterAction{Rear Up (1/Day)}
+    The horse rears up, whirling its hooves and inflicting disadvantage on an opponents next attack roll and any attack rolls against it or its rider until the beginning of its next turn.
+
+    \DndMonsterSection{Reactions}
+
+    \DndMonsterAction{Step Out}
+    If the horse is approached by an opponent from the rear, meaning a creature enters the space behind it, the rider may use their reaction and lat the horse perform a \textbf{Combat Stomp} as an attack of opportunity.
+
+  \end{multicols}
+\end{DndMonster}
+
+\chapter{Licensing}
+
+The mounts and the spell variants are to be considered open game content. Any flavor text (that might be added later) is considered \href{https://creativecommons.org/licenses/by-sa/4.0/legalcode}{CC-BY-SA-4.0}. Feel free to credit me even if you only use open game content though, it would be much appreciated.
+
+\section{Open Game License}
+
+OPEN GAME LICENSE Version 1.0a The following text is the property of Wizards of the Coast, LLC. and is Copyright 2000 Wizards of the Coast, Inc (“Wizards”). All Rights Reserved.
+
+1. Definitions: (a)”Contributors” means the copyright and/or trademark owners who have contributed Open Game Content; (b)”Derivative Material” means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) “Distribute” means to reproduce, License, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d)”Open Game Content” means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) “Product Identity” means product and product line names, logos and identifying marks including trade dress; artifacts; creatures characters; stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, Spells, enchantments, personalities, teams, personas, likenesses and Special abilities; places, locations, environments, creatures, Equipment, magical or supernatural Abilities or Effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the OPEN Game Content; (f) “Trademark” means the logos, names, mark, sign, motto, designs that are used by a Contributor to Identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) “Use”, “Used” or “Using” means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) “You” or “Your” means the licensee in terms of this agreement.
+
+2. The License: This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or Conditions may be applied to any Open Game Content distributed using this License.
+
+3. Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.
+
+4. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, nonexclusive License with the exact terms of this License to Use, the Open Game Content.
+
+5. Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original Creation and/or You have sufficient rights to grant the rights conveyed by this License.
+
+6. Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder’s name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.
+
+7. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a Challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.
+
+8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.
+
+9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.
+
+10. Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You Distribute.
+
+11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.
+
+12. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.
+
+13. Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.
+
+14. Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
+
+15. COPYRIGHT NOTICE
+
+    Open Game License v 1.0a Copyright 2000, Wizards of the Coast, LLC.System Reference Document 5.1 Copyright 2016, Wizards of the Coast, LLC.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.
+
+    Basic Mounts Copyright 2021, Jens Keim
+
+END OF LICENSE
+
+
+\end{document}
