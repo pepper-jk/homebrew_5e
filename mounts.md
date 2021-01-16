@@ -1,5 +1,11 @@
 # mounts
 
+The following mounts are designed to be used by the mounted combat rules introduces in the article "Jumping on Mounted Combat" by Willy Abeel in the first issue of [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs) produced by MCDM.
+
+These mounts and the spell variants are to be considered [open game content](OGL.md). Any flavor text (that might be added later) is considered [CC-BY-SA-4.0](LICENSE.md). Feel free to credit me even if you only use OGL content though, it would be much appreciated.
+
+For now I focused on the **riding horse mount**, as my players will get some soon, and the mounts included in ***find steed*** besides the warhorse, which was already covered by the article itself. However, I plan to work on some more mounts in the future, wyvern mounts, fey (touched) mounts and more beast based mounts for my druid player to turn into.
+
 > **Find Steed Variant**
 >
 > The spirit summoned by the find steed spell can take the form of a **mount** over the standard beast, allowing the caster to utilize the new features of the following creatures. This includes the camel, elk, mastiff, pony and warhorse mounts.
