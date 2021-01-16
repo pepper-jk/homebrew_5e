@@ -8,7 +8,11 @@ For now I focused on some basic mounts. However, I plan to work on some more mou
 
 ## Basic Mounts
 
-If adventurers travel long distances they usually rely on mounts to cover my distance. The most common mount would be the **riding horse**. However, some races require a smaller mount, like a **pony** or **mastiff**, to get around and a spellcaster may cast *find steed* to get his first mount. This section covers the most common basic mounts an adventuring party may start out with.
+If adventurers travel long distances they usually rely on mounts to cover more ground per day.
+The most common mount would be the **riding horse**.
+However, some folk may require smaller mounts, like **ponies** or **mastiffs**, to get around.
+Spellcasters may cast *find steed* to get their first mount.
+This section covers the most common mounts an adventuring party may start out with.
 
 > **Find Steed Variant**
 >
