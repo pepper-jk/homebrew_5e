@@ -30,8 +30,7 @@ For now I focused on the **riding horse mount**, as my players will get some soo
 - **Combat Ram.** Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage, or 13 (3d6 + 3) bludgeoning damage if it was moving 20 foot in a strait line. If the target is a Large or smaller creature, it must succeed on a DC 11 + PB Strength saving throw or be knocked prone.
 - **Wild Charge (3/Day).** The elk gains resistance to bludgeoning, piercing, and slashing damage, doesn’t provoke opportunity attacks when it moves out of an enemy’s reach, and can move through spaces occupied by other creatures until the end of its turn. Each creature in the elk’s way must make a DC 11 + PB Strength saving throw or take 13 (3d6 + 3) bludgeoning damage and be knocked prone. On a successful save, the creature takes half as much damage and isn’t knocked prone.
 ### Reactions
-- **Antler Parry.** The elk opposes disadvantage against one melee attack that would hit it or its rider. To do so, the elk must see the attacker and use his antlers to fend the foe off.
-- **Dogfight.** The elk adds 2 to its AC and the AC of its rider against all melee attacks from one creature that would hit it or its rider. To do so, the elk must see the attacker and use his antlers to fend the foe off.
+- **Antler Parry.** If either the elk or its rider would be hit by a melee attack, the rider may use their reaction to command the elk to use his antlers to fend off the foe. The elk may either oppose disadvantage against the melee attack or add 2 to its AC and the AC of its rider against all melee attacks from the foe.
 
 ## Mastiff Mount
 - based on **mastiff** stats
