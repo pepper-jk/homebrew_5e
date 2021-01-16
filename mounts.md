@@ -48,9 +48,9 @@ For now I focused on the **riding horse mount**, as my players will get some soo
 - **Mounted.** During a long rest, the pony can designate one creature that rode it within the last 10 days as its rider. The pony gains a number of temporary hit points based on the rider’s level or challenge rating after completing the long rest. The pony uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects.
 ### Actions
 - **Combat Stomp.** Melee Weapon Attack: +2 + PB to hit, reach 5 ft., one target. Hit: 8 (2d4 + 2) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 10 + PB Strength saving throw or be knocked prone.
-- **Rear Up (1/Day).** The pony rears up, whirling its hooves and inflicting disadvantage on an opponents next attack roll and any attack rolls against it or its rider until the beginning of its next turn.
+- **(new) Rear Up (1/Day).** Using half its movement the pony rears up, whirling its hooves and inflicting disadvantage on any melee attack rolls within 5ft. of it until the beginning of its next turn. If the pony uses its opportunity attack of the **Step Out** reaction, this effect ends.
 ### Reaction
-- **Step Out.** If the pony is approached by an opponent from the rear, meaning a creature enters the space behind it, the rider may use their reaction and lat the pony perform a **Combat Stomp** as an attack of opportunity.
+- **Step Out.** If the pony is approached by an opponent from the rear, meaning a creature enters a space behind it, the rider may use their reaction and let the pony perform a **Combat Stomp** as an attack of opportunity.
 
 > **Phantom Steed Variant**
 >
@@ -64,6 +64,6 @@ For now I focused on the **riding horse mount**, as my players will get some soo
 ### Actions
 - **Combat Stomp.** Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one target. Hit: 9 (2d4 + 3) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 11 + PB Strength saving throw or be knocked prone.
 - **Rear Up (1/Day).** The horse rears up, whirling its hooves and inflicting disadvantage on an opponents next attack roll and any attack rolls against it or its rider until the beginning of its next turn.
-- **(3/Day).** rear up with save? (instead!)
+- **(new) Rear Up (1/Day).** Using half its movement the horse rears up, whirling its hooves and inflicting disadvantage on any melee attack rolls within 5ft. of it until the beginning of its next turn. If the horse uses its opportunity attack of the **Step Out** reaction, this effect ends.
 ### Reaction
-- **Step Out.** If the horse is approached by an opponent from the rear, meaning a creature enters the space behind it, the rider may use their reaction and lat the horse perform a **Combat Stomp** as an attack of opportunity.
+- **Step Out.** If the horse is approached by an opponent from the rear, meaning a creature enters a space behind it, the rider may use their reaction and let the horse perform a **Combat Stomp** as an attack of opportunity.
