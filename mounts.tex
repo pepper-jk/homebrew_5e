@@ -37,6 +37,17 @@
 \author{The rpgTeX Team}
 \date{2020/04/21}
 
+\ExplSyntaxOn
+\newlist {CustomBasics} {description} {1}
+\setlist [CustomBasics]
+  {
+    before   = \color {titlered},
+    font     = \DndFontStatBlockBody,
+    labelsep = \l__dnd_space_dim,
+    nosep,
+  }
+\ExplSyntaxOff
+
 \begin{document}
 
 \frontmatter
@@ -70,13 +81,14 @@ This section covers the most common mounts an adventuring party may start out wi
   \begin{multicols}{2}
     \DndMonsterType{Large mounted beast, unaligned}
 
-    % If you want to use commas in the key values, enclose the values in braces.
-    \DndMonsterBasics[
-        armor-class = {9 + PB},
-        hit-points  = {\DndDice{2d10 + 4}},
-        %{Temporary Hit Points} = {4 times the rider’s character level or challenge rating},
-        speed       = {50 ft.},
-      ]
+      \DndMonsterLine
+      \begin {CustomBasics}
+        \item[\armorclassname] 9 + PB
+        \item[Temporary Hit Points] 4 times the rider's character level or challenge rating
+        \item[\hitpointsname]  \DndDice{2d10 + 4}
+        \item[\speedname] 50 ft.
+      \end {CustomBasics}
+      \DndMonsterLine
 
     \DndMonsterAbilityScores[
         str = 16,
@@ -138,13 +150,14 @@ This section covers the most common mounts an adventuring party may start out wi
   \begin{multicols}{2}
     \DndMonsterType{Large mounted beast, unaligned}
 
-    % If you want to use commas in the key values, enclose the values in braces.
-    \DndMonsterBasics[
-        armor-class = {10 + PB},
-        hit-points  = {\DndDice{2d10 + 2}},
-        %{Temporary Hit Points} = {4 times the rider’s character level or challenge rating},
-        speed       = {50 ft.},
-      ]
+    \DndMonsterLine
+    \begin {CustomBasics}
+      \item[\armorclassname] 10 + PB
+      \item[Temporary Hit Points] 4 times the rider's character level or challenge rating
+      \item[\hitpointsname]  \DndDice{2d10 + 2}
+      \item[\speedname] 50 ft.
+    \end {CustomBasics}
+    \DndMonsterLine
 
     \DndMonsterAbilityScores[
         str = 16,
@@ -209,13 +222,14 @@ This section covers the most common mounts an adventuring party may start out wi
   \begin{multicols}{2}
     \DndMonsterType{Large mounted beast, unaligned}
 
-    % If you want to use commas in the key values, enclose the values in braces.
-    \DndMonsterBasics[
-        armor-class = {12 + PB},
-        hit-points  = {\DndDice{1d8 + 1}},
-        %{Temporary Hit Points} = {4 times the rider’s character level or challenge rating},
-        speed       = {40 ft.},
-      ]
+    \DndMonsterLine
+    \begin {CustomBasics}
+      \item[\armorclassname] 12 + PB
+      \item[Temporary Hit Points] 4 times the rider's character level or challenge rating
+      \item[\hitpointsname]  \DndDice{1d8 + 1}
+      \item[\speedname] 40 ft.
+    \end {CustomBasics}
+    \DndMonsterLine
 
     \DndMonsterAbilityScores[
         str = 13,
@@ -289,13 +303,14 @@ This section covers the most common mounts an adventuring party may start out wi
   \begin{multicols}{2}
     \DndMonsterType{Medium mounted beast, unaligned}
 
-    % If you want to use commas in the key values, enclose the values in braces.
-    \DndMonsterBasics[
-        armor-class = {10 + PB},
-        hit-points  = {\DndDice{2d8 + 2}},
-        %{Temporary Hit Points} = {4 times the rider’s character level or challenge rating},
-        speed       = {40 ft.},
-      ]
+    \DndMonsterLine
+    \begin {CustomBasics}
+      \item[\armorclassname] 10 + PB
+      \item[Temporary Hit Points] 4 times the rider's character level or challenge rating
+      \item[\hitpointsname]  \DndDice{2d8 + 2}
+      \item[\speedname] 40 ft.
+    \end {CustomBasics}
+    \DndMonsterLine
 
     \DndMonsterAbilityScores[
         str = 15,
@@ -361,13 +376,14 @@ This section covers the most common mounts an adventuring party may start out wi
   \begin{multicols}{2}
     \DndMonsterType{Medium mounted beast, unaligned}
 
-    % If you want to use commas in the key values, enclose the values in braces.
-    \DndMonsterBasics[
-        armor-class = {10 + PB},
-        hit-points  = {\DndDice{2d10 + 2}},
-        %{Temporary Hit Points} = {4 times the rider’s character level or challenge rating},
-        speed       = {60 ft.},
-      ]
+    \DndMonsterLine
+    \begin {CustomBasics}
+      \item[\armorclassname] 10 + PB
+      \item[Temporary Hit Points] 4 times the rider's character level or challenge rating
+      \item[\hitpointsname]  \DndDice{2d10 + 2}
+      \item[\speedname] 60 ft.
+    \end {CustomBasics}
+    \DndMonsterLine
 
     \DndMonsterAbilityScores[
         str = 16,
