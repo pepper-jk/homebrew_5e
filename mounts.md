@@ -1,4 +1,4 @@
-> You can find the pdf version with full stat blocks [here](https://github.com/pepper-jk/homebrew_5e/releases/tag/mounts_0.1.1).
+> You can find the pdf version with full stat blocks [here](https://github.com/pepper-jk/homebrew_5e/releases/tag/mounts_0.1.2).
 
 # Nelly's favored Mounts
 
