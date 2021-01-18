@@ -72,5 +72,55 @@ This section covers the most common mounts an adventuring party may start out wi
 #### Reaction
 - **Step Out.** If the horse is approached by an opponent from the rear, meaning a creature enters a space behind it, the rider may use their reaction and let the horse perform a **Combat Stomp** as an attack of opportunity.
 
+## Creating a Mount
+
+As a lot of people have wondered how to design an Arcadia mount, I decided to write up a quick guide for it.
+I reverse engineered he following rules from the examples provided in Arcadia.
+So if you find any mathematical errors or other faults with it let me know and I will fix it.
+I tried to stay as close to the vision presented in Arcadia as possible.
+However, here and there I needed to improvise, extrapolate and assume.
+If official mounts released in the future disproof this guide, I will update it.
+
+> Of cause these rules are only guidelines, so if you have different ideas for your mount, do as you wish.
+
+First you decide on a monster you want your mount to be to base on.
+For this take a look at the [SRD](https://dnd.wizards.com/articles/features/systems-reference-document-srd), as it is open game content and holds a lot of options from the Monster Manual already.
+Once you got your non-mount stat block, we add the **Mounted** trait and apply it.
+
+> **Mounted.** During a long rest, the mount can designate one creature that rode it within the last 10 days as its rider. The mount gains a number of temporary hit points based on the rider’s level or challenge rating after completing the long rest. The mount uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects.
+
+To determine the **temporary hit points** for it take a look at the hit points of the monster and use the temporary hit points table.
+The **armor class** becomes 10 + Dexterity + PB, dropping any natural armor.
+**Saving throws** and **skills** are now ability modifier + PB.
+The rest of the core stat block remains untouched.
+Hit points, speed, abilities, senses, languages and challenge rating stay the same.
+Now lets look at the traits and actions of the monster.
+
+Any trait associated with combat, e.g. dealing additional damage, usually gets thrown out.
+Any sense or ability based traits stay.
+The **base attack action** gets buffed as follows.
+The attack does more damage and gets an **extra effect** that triggers after a failed saving throw by the target.
+Note that any **saving throw DCs** are based on the mounts ability modifier that belongs to it, specifically 8 + ability modifier + PB.
+
+Now comes the creative part.
+The monster gets **two more actions** in addition to its now buffed base attack.
+Any combination of the following:
+- an action that can be used three times a day (3/Day)
+- an action that can be used once a day (1/Day)
+- a reaction
+
+Each action should represent a feature of the creature.
+It should fit and feel real.
+In the best case these features are unique to the mount.
+
+| HP    | temporary HP  |
+|-------|---------------|
+| 1-9   | 5 times the rider’s character level or challenge rating
+| 10-44 | 4 times the rider’s character level or challenge rating
+| 45-64 | 3 times the rider’s character level or challenge rating
+| 65-84 | 2 times the rider’s character level or challenge rating
+| 85-99 | 1 time the rider’s character level or challenge rating
+| 100+  | 0 times the rider’s character level or challenge rating
+
 # Licensing
 The mounts and the spell variants are to be considered [open game content](OGL.md). Any flavor text (that might be added later) is considered [CC-BY-SA-4.0](LICENSE.md). Feel free to credit me even if you only use OGL content though, it would be much appreciated.
