@@ -98,7 +98,8 @@ The rest of the core stat block remains untouched.
 Hit points, speed, abilities, senses, languages and challenge rating stay the same.
 Now lets look at the traits and actions of the monster.
 
-Any trait associated with combat, e.g. dealing additional damage, usually gets thrown out.
+Any trait associated with combat, e.g. dealing additional damage, usually gets split into a utility and combat part.
+**Utility** stays as a trait and **damage** and **saving throws** are moved to the base attack.
 Any sense or ability based traits stay.
 The **base attack action** gets buffed as follows.
 The attack does more damage and gets an **extra effect** that triggers after a failed saving throw by the target.
