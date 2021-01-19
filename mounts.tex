@@ -444,6 +444,65 @@ This section covers the most common mounts an adventuring party may start out wi
   \end{multicols}
 \end{DndMonster}
 
+\chapter{Creating a Mount}
+
+As a lot of people have wondered how to design an Arcadia mount, I decided to write up a quick guide for it.
+I reverse engineered he following rules from the examples provided in Arcadia.
+So if you find any mathematical errors or other faults with it let me know and I will fix it.
+I tried to stay as close to the vision presented in Arcadia as possible.
+However, here and there I needed to improvise, extrapolate and assume.
+If official mounts released in the future disproof this guide, I will update it.
+
+\begin{DndComment}{disclaimer}
+  Of cause these rules are only guidelines, so if you have different ideas for your mount, do as you wish.
+\end{DndComment}
+
+First you decide on a monster you want your mount to be to base on.
+For this take a look at the \href{https://dnd.wizards.com/articles/features/systems-reference-document-srd}{SRD}, as it is open game content and holds a lot of options from the Monster Manual already.
+Once you got your non-mount stat block, we add the \textbf{Mounted} trait and apply it.
+
+\begin{DndComment}{Mounted}
+  During a long rest, the mount can designate one creature that rode it within the last 10 days as its rider. The mount gains a number of temporary hit points based on the rider’s level or challenge rating after completing the long rest. The mount uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects.
+\end{DndComment}
+
+To determine the \textbf{temporary hit points} for it take a look at the hit points of the monster and use the temporary hit points table.
+The \textbf{armor class} becomes 10 + Dexterity + PB, dropping any natural armor.
+\textbf{Saving throws} and \textbf{skills} are now ability modifier + PB.
+The rest of the core stat block remains untouched.
+Hit points, speed, abilities, senses, languages and challenge rating stay the same.
+Now lets look at the traits and actions of the monster.
+
+\begin{DndTable}[header=Temporary hit points table]{cX}
+  \textbf{HP}  & \textbf{Temporary HP} \\
+  1-9   & 5 times the rider’s character level or CR \\
+  10-44 & 4 times the rider’s character level or CR \\
+  45-64 & 3 times the rider’s character level or CR \\
+  65-84 & 2 times the rider’s character level or CR \\
+  85-99 & the rider’s character level or CR \\
+  100+  & -
+\end{DndTable}
+
+\pagebreak
+
+Any trait associated with combat, e.g. dealing additional damage, usually gets thrown out.
+Any sense or ability based traits stay.
+The \textbf{base attack action} gets buffed as follows.
+The attack does more damage and gets an \textbf{extra effect} that triggers after a failed saving throw by the target.
+Note that any \textbf{saving throw DCs} are based on the mounts ability modifier that belongs to it, specifically 8 + ability modifier + PB.
+
+Now comes the creative part.
+The monster gets \textbf{two more actions} in addition to its now buffed base attack.
+Any combination of the following:
+\begin{itemize}
+  \item an action that can be used three times a day (3/Day)
+  \item an action that can be used once a day (1/Day)
+  \item a reaction
+\end{itemize}
+
+Each action should represent a feature of the creature.
+It should fit and feel real.
+In the best case these features are unique to the mount.
+
 \chapter{Licensing}
 
 The mounts and the spell variants are to be considered open game content. Any flavor text (that might be added later) is considered \href{https://creativecommons.org/licenses/by-sa/4.0/legalcode}{CC-BY-SA-4.0}. Feel free to credit me even if you only use open game content though, it would be much appreciated.
