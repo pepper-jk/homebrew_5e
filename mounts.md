@@ -92,8 +92,8 @@ Once you got your non-mount stat block, we add the **Mounted** trait and apply i
 > **Mounted.** During a long rest, the mount can designate one creature that rode it within the last 10 days as its rider. The mount gains a number of temporary hit points based on the rider’s level or challenge rating after completing the long rest. The mount uses its rider’s proficiency bonus in place of its own proficiency bonus for AC, ability checks, attack rolls, saving throws, and the DC made to save against certain action effects.
 
 To determine the **temporary hit points** for it take a look at the hit points of the monster and use the temporary hit points table.
-The **armor class** becomes `10 + Dexterity + PB`, dropping any natural armor.
-**Saving throws** and **skills** are now `ability modifier + PB`.
+The **armor class** becomes `10 + Dexterity + natural armor (if any) + PB`.
+Proficient **saving throws** and **skills** are now `ability modifier + PB`.
 The rest of the core stat block remains untouched.
 Hit points, speed, abilities, senses, languages and challenge rating stay the same.
 Now lets look at the traits and actions of the monster.
