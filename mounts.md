@@ -77,7 +77,7 @@ This section covers the most common mounts an adventuring party may start out wi
 ## Creating a Mount
 
 As a lot of people have wondered how to design an Arcadia mount, I decided to write up a quick guide for it.
-I reverse engineered he following rules from the examples provided in Arcadia.
+I reverse engineered the following rules from the examples provided in Arcadia.
 So if you find any mathematical errors or other faults with it let me know and I will fix it.
 I tried to stay as close to the vision presented in Arcadia as possible.
 However, here and there I needed to improvise, extrapolate and assume.
