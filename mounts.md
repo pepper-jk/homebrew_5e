@@ -20,60 +20,155 @@ This section covers the most common mounts an adventuring party may start out wi
 >
 > The spirit summoned by the find steed spell can take the form of a **mount** over the standard beast, allowing the caster to utilize the new features of the following creatures. This includes the camel, elk, mastiff, pony and warhorse mounts.
 
-#### Camel Mount
-- based on **camel** stats
-- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
-- **Mounted.** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
-##### Actions
-- **Bite.** Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one target. Hit: 9 (2d4 + 3) bludgeoning damage. If the target is a Medium or smaller creature, the camel tries to grab onto the targets equipment and the target must succeed on a DC 9 + PB Dexterity saving throw or suffer a -2 penalty to AC until it uses have its movement action to fix his armor.
-- **Stampede (3/Day).** If the camel moves 15 ft. towards an enemy and at least one other camel joins it, they overrun enemies in their path. While they move together they gain resistance to bludgeoning, piercing, and slashing damage, doesn’t provoke opportunity attacks when it moves out of an enemy’s reach, and can move through spaces occupied by other creatures. Each creature in the herds way must make a DC 11 + PB Strength saving throw or take 13 (2d8 + 4) bludgeoning damage, plus 5 (1d8) for each additional camel above two, and be knocked prone. On a successful save, the creature takes half as much damage and isn’t knocked prone.
-##### Reactions
-- **Join the Herd.** If another Camel starts the **Stampede** action, a rider may use their reaction to join the other camel. First the camel needs to move up to the other camel and can move with the herd as far as its movement allows. Any movement used in this reaction is subtracted from the movement for the camels next turn.
+>___
+>## Camel Mount
+>*Large beast, unaligned*
+>___
+>- **Armor Class** 9
+>- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
+>- **Hit Points** 15 (2d10 + 4)
+>- **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|8 (-1)|14 (+2)|2 (-4)|8 (-1)|5 (-3)|
+>___
+>- **Senses** passive Perception 9
+>- **Languages** —
+>- **Challenge** 1/8 (25 XP)
+>___
+>***Mounted.*** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
+>
+>### Actions
+>***Bite.*** Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one target. Hit: 9 (2d4 + 3) bludgeoning damage. If the target is a Medium or smaller creature, the camel tries to grab onto the targets equipment and the target must succeed on a DC 9 + PB Dexterity saving throw or suffer a -2 penalty to AC until it uses have its movement action to fix his armor.
+>
+>***Stampede (3/Day).*** If the camel moves 15 ft. towards an enemy and at least one other camel joins it, they overrun enemies in their path. While they move together they gain resistance to bludgeoning, piercing, and slashing damage, doesn’t provoke opportunity attacks when it moves out of an enemy’s reach, and can move through spaces occupied by other creatures. Each creature in the herds way must make a DC 11 + PB Strength saving throw or take 13 (2d8 + 4) bludgeoning damage, plus 5 (1d8) for each additional camel above two, and be knocked prone. On a successful save, the creature takes half as much damage and isn’t knocked prone.
+>
+>### Reactions
+>***Join the Herd.*** If another Camel starts the **Stampede** action, a rider may use their reaction to join the other camel. First the camel needs to move up to the other camel and can move with the herd as far as its movement allows. Any movement used in this reaction is subtracted from the movement for the camels next turn.
+>___
 
-#### Elk Mount
-- based on **elk** stats
-- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
-- **Charge.** If the elk moves at least 15 feet straight toward a target it starts charging.
-- **Mounted.** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
-##### Actions
-- **Combat Ram.** Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage, or 13 (3d6 + 3) bludgeoning damage if the elk is charging on the same turn. If the target is a Large or smaller creature, it must succeed on a DC 11 + PB Strength saving throw or be knocked prone.
-- **Wild Charge (3/Day).** The elk gains resistance to bludgeoning, piercing, and slashing damage, doesn’t provoke opportunity attacks when it moves out of an enemy’s reach, and can move through spaces occupied by other creatures until the end of its turn. Each creature in the elk’s way must make a DC 11 + PB Strength saving throw or take 13 (3d6 + 3) bludgeoning damage and be knocked prone. On a successful save, the creature takes half as much damage and isn’t knocked prone.
-##### Reactions
-- **Antler Parry.** If either the elk or its rider would be hit by a melee attack, the rider may use their reaction to command the elk to use his antlers to fend off the foe. The elk may either oppose disadvantage against the melee attack or add 2 to its AC and the AC of its rider against all melee attacks from the foe.
+>___
+>## Elk Mount
+>*Large beast, unaligned*
+>___
+>- **Armor Class** 10
+>- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
+>- **Hit Points** 13 (2d10 + 2)
+>- **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|10 (+0)|12 (+1)|2 (-4)|10 (+0)|6 (-2)|
+>___
+>- **Senses** passive Perception 10
+>- **Languages** —
+>- **Challenge** 1/4 (50 XP)
+>___
+>***Charge.*** If the elk moves at least 15 feet straight toward a target it starts charging.
+>
+>***Mounted.*** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
+>
+>### Actions
+>***Combat Ram.*** Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage, or 13 (3d6 + 3) bludgeoning damage if the elk is charging on the same turn. If the target is a Large or smaller creature, it must succeed on a DC 11 + PB Strength saving throw or be knocked prone.
+>
+>***Wild Charge (3/Day).*** The elk gains resistance to bludgeoning, piercing, and slashing damage, doesn’t provoke opportunity attacks when it moves out of an enemy’s reach, and can move through spaces occupied by other creatures until the end of its turn. Each creature in the elk’s way must make a DC 11 + PB Strength saving throw or take 13 (3d6 + 3) bludgeoning damage and be knocked prone. On a successful save, the creature takes half as much damage and isn’t knocked prone.
+>
+>### Reactions
+>***Antler Parry.*** If either the elk or its rider would be hit by a melee attack, the rider may use their reaction to command the elk to use his antlers to fend off the foe. The elk may either oppose disadvantage against the melee attack or add 2 to its AC and the AC of its rider against all melee attacks from the foe.
+>___
 
-#### Mastiff Mount
-- based on **mastiff** stats
-- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
-- **Mounted.** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
-##### Actions
-- **Bite.** Melee Weapon Attack: +1 + PB to hit, reach 5 ft., one target. Hit: 9 (2d4 + 1) piercing damage. If the target is a Medium or smaller creature, it must succeed on a DC 9 + PB Strength saving throw or be knocked prone.
-- **Bite down.** Melee Weapon Attack: +1 + PB to hit, reach 5 ft., one Medium or smaller creature. Hit: 9 (2d4 + 1) piercing damage. The target is grappled (escape DC 9 + PB). Until this grapple ends, the target is restrained and the Mastiff can use its action to deal 9 (2d4 + 1) piercing damage. The mastiff can grapple only one target at a time.
-- **Sniff.** The mastiff sniffs out targets it can not see. It makes a Wisdom (Perception) check with advantage due to its *Keen Hearing and Smell*. If the target is within 30ft. of the mastiff during the mastiffs turn, the target does not benefit from being hidden or invisible against the mastiff and its rider until the start of its next turn.
+>___
+>## Mastiff Mount
+>*Medium beast, unaligned*
+>___
+>- **Armor Class** 12
+>- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
+>- **Hit Points** 5 (1d8 + 1)
+>- **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|13 (+1)|14 (+2)|12 (+1)|3 (-4)|12 (+1)|7 (-2)|
+>___
+>- **Skills** Perception +3
+>- **Senses** passive Perception 13
+>- **Languages** —
+>- **Challenge** 1/8 (25 XP)
+>___
+>***Keen Hearing and Smell.*** The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+>
+>***Mounted.*** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
+>
+>### Actions
+>***Bite.*** Melee Weapon Attack: +1 + PB to hit, reach 5 ft., one target. Hit: 9 (2d4 + 1) piercing damage. If the target is a Medium or smaller creature, it must succeed on a DC 9 + PB Strength saving throw or be knocked prone.
+>
+>***Bite down.*** Melee Weapon Attack: +1 + PB to hit, reach 5 ft., one Medium or smaller creature. Hit: 9 (2d4 + 1) piercing damage. The target is grappled (escape DC 9 + PB). Until this grapple ends, the target is restrained and the Mastiff can use its action to deal 9 (2d4 + 1) piercing damage. The mastiff can grapple only one target at a time.
+>
+>***Sniff.*** The mastiff sniffs out targets it can not see. It makes a Wisdom (Perception) check with advantage due to its *Keen Hearing and Smell*. If the target is within 30ft. of the mastiff during the mastiffs turn, the target does not benefit from being hidden or invisible against the mastiff and its rider until the start of its next turn.
+>___
 
-#### Pony Mount
-- based on **pony** stats
-- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
-- **Mounted.** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
-##### Actions
-- **Combat Stomp.** Melee Weapon Attack: +2 + PB to hit, reach 5 ft., one target. Hit: 8 (2d4 + 2) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 10 + PB Strength saving throw or be knocked prone.
-- **Rear Up (1/Day).** Using half its movement the pony rears up, whirling its hooves and inflicting disadvantage on any melee attack rolls within 5ft. of it until the beginning of its next turn. If the pony uses its opportunity attack of the **Step Out** reaction, this effect ends.
-##### Reaction
-- **Step Out.** If the pony is approached by an opponent from the rear, meaning a creature enters a space behind it, the rider may use their reaction and let the pony perform a **Combat Stomp** as an attack of opportunity.
+>___
+>## Pony Mount
+>*Medium beast, unaligned*
+>___
+>- **Armor Class** 10
+>- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
+>- **Hit Points** 11 (2d8 + 2)
+>- **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|15 (+2)|10 (+0)|13 (+1)|2 (-4)|11 (+0)|7 (-2)|
+>___
+>- **Senses** passive Perception 10
+>- **Languages** —
+>- **Challenge** 1/8 (25 XP)
+>___
+>***Mounted.*** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
+>
+>### Actions
+>***Combat Stomp.*** Melee Weapon Attack: +2 + PB to hit, reach 5 ft., one target. Hit: 8 (2d4 + 2) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 10 + PB Strength saving throw or be knocked prone.
+>
+>***Rear Up (1/Day).*** Using half its movement the pony rears up, whirling its hooves and inflicting disadvantage on any melee attack rolls within 5ft. of it until the beginning of its next turn. If the pony uses its opportunity attack of the **Step Out** reaction, this effect ends.
+>
+>### Reaction
+>***Step Out.*** If the pony is approached by an opponent from the rear, meaning a creature enters a space behind it, the rider may use their reaction and let the pony perform a **Combat Stomp** as an attack of opportunity.
+>___
 
 > **Phantom Steed Variant**
 >
 > The spirit summoned by the phantom steed spell can take the form of a **riding horse mount** over the standard riding horse, allowing the caster to utilize this creature’s new features.
 
-#### Riding Horse Mount
-- based on **riding horse** stats
-- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
-- **Mounted.** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
-- **Horsepower.** The horse begins charging if it moves at least 15 feet in a straight line and continues charging until it stops moving forward. While charging, the horse’s long jump is up to 30 feet and it ignores difficult terrain.
-##### Actions
-- **Combat Stomp.** Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one target. Hit: 9 (2d4 + 3) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 11 + PB Strength saving throw or be knocked prone.
-- **Rear Up (1/Day).** Using half its movement the horse rears up, whirling its hooves and inflicting disadvantage on any melee attack rolls within 5ft. of it until the beginning of its next turn. If the horse uses its opportunity attack of the **Step Out** reaction, this effect ends.
-##### Reaction
-- **Step Out.** If the horse is approached by an opponent from the rear, meaning a creature enters a space behind it, the rider may use their reaction and let the horse perform a **Combat Stomp** as an attack of opportunity.
+>___
+>## Riding Horse Mount
+>*Large beast, unaligned*
+>___
+>- **Armor Class** 10
+>- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
+>- **Hit Points** 13 (2d10 + 2)
+>- **Speed** 60 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|10 (+0)|12 (+1)|2 (-4)|11 (+0)|7 (-2)|
+>___
+>- **Senses** passive Perception 10
+>- **Languages** —
+>- **Challenge** 1/4 (50 XP)
+>___
+>***Mounted.*** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
+>
+>***Horsepower.*** The horse begins charging if it moves at least 15 feet in a straight line and continues charging until it stops moving forward. While charging, the horse’s long jump is up to 30 feet and it ignores difficult terrain.
+>
+>### Actions
+>***Combat Stomp.*** Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one target. Hit: 9 (2d4 + 3) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 11 + PB Strength saving throw or be knocked prone.
+>
+>***Rear Up (1/Day).*** Using half its movement the horse rears up, whirling its hooves and inflicting disadvantage on any melee attack rolls within 5ft. of it until the beginning of its next turn. If the horse uses its opportunity attack of the **Step Out** reaction, this effect ends.
+>
+>### Reaction
+>***Step Out.*** If the horse is approached by an opponent from the rear, meaning a creature enters a space behind it, the rider may use their reaction and let the horse perform a **Combat Stomp** as an attack of opportunity.
+>___
 
 ## Creating a Mount
 
