@@ -1,44 +1,28 @@
 # homebrew_5e
 
-This repository contains homebrew content created for my D&D 5e campaigns. Most of it is inspired by D&D 4e Powers.
+This repository contains homebrew content for D&D 5e.
 
-This concept goes back to [Matt Colville](https://www.youtube.com/watch?v=QoELQ7px9ws).
+## different documents
 
-## Current Content
+- [Lilli Nackle’s Index of Arcane Items](items.md):
 
-### Items:
+  a compendium of magic items most taylored to a specific character class.
 
-- Dagger of Disinterest
-- Druid Totem (Water Gem)
-- Fey Scrolls
-- Manual of Maneuvers, Volume 3
+- [Nelly's extraordinary Mounts](mounts.md):
 
-### Spells:
+  a compendium of mounts designed to be used with the [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs) mount system.
 
-- Fey Hex
+## Credit
 
-### Eldritch Invocations:
+**Art** by [Zilpep](https://www.deviantart.com/zilpep).
 
-- Bouncing Blast
-
-## Up Next
-
-- more Manuals of Maneuver
-- more Druid Totem Gems
-- more Fey Scrolls
-  - either spells
-  - or invocations
-
-## Credits
-
-All drawn images included in this repo and the final document were created by Zilpep.
-
-The homebrew content was written by Jens Keim.
+**Writing** by Jens Keim (aka pepper-jk).
 
 Also take a look at my [house rules](https://github.com/pepper-jk/house_rules_5e).
 
 ## Licensing
+Any 5e **game mechanics**, including class features and option, magic items, monsters, mounts, and spells, are to be considered [**open game content**](OGL.md), but feel free to credit me.
 
-This repository and all its content are licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+Any **flavor text** and **art** is licensed under [*Creative Commons Attribution Share Alike 4.0 International* (**CC-BY-SA-4.0**)](LICENSE.md).
 
 This does not include the submodule [DND-5e-LaTeX-Template](https://github.com/rpgtex/DND-5e-LaTeX-Template/wiki).
