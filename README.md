@@ -31,7 +31,7 @@ This concept goes back to [Matt Colville](https://www.youtube.com/watch?v=QoELQ7
 
 ## Credits
 
-All drawn images included in this repo and the final document were created by Anne Wilderotter.
+All drawn images included in this repo and the final document were created by Zilpep.
 
 The homebrew content was written by Jens Keim.
 
