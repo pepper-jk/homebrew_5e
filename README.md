@@ -4,7 +4,7 @@ This repository contains homebrew content for D&D 5e.
 
 ## different documents
 
-- [Lilli Nackle’s Index of Arcane Items](items.md):
+- [Lilli Nackle’s Index of the Arcane](items.md):
 
   a compendium of magic items most taylored to a specific character class.
 

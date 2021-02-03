@@ -1,4 +1,4 @@
-# Lilli Nackle’s Index of Arcane Items
+# Lilli Nackle’s Index of the Arcane
 
 This document contains new magic items designed specifically for the characters of my ongoing campaign.
 
