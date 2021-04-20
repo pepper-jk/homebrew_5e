@@ -2,6 +2,68 @@
 
 # Nelly's extraordinary Mounts
 
+## Taking care of a Mount
+
+A mount is not just a tool for travel, it is a living being.
+It has needs, feelings and desires.
+If mistreated or neglected a mount may abandon you, when it gets the chance.
+Although you might find taking care of a mount to be a time consuming annoyance, it can be also rewarding to form a bond with your mount.
+In this section I talk about the basic needs of mounts.
+The food and accommodation they need and prefer.
+And how you may improve the bond between a mount and their rider.
+
+### Types of Mounts
+
+While studying mounts I found that one can categorize them into four groups.
+Each type brings some characteristics that distinguishes it from the others.
+
+**Common mounts** are mostly common mounts, like horses and mastiffs, but also pegasi and unicorns. Such mounts don't need special care besides the usual feed and stabling.
+
+Bears, wolfs, giant spiders and other carnivorous are considered **dangerous mounts**, as are griffons, hippogriffs, other monstrosities and everything larger than *Huge*.
+
+**Exotic mounts** are rare and seldomly seen on the streets, but they are heard of.
+Necromancer riding undead horses, Articifers or Gnomes riding construction of cogs and screws, Goblins riding Ogres or Knights riding dragons.
+
+The most rare mounts are creatures summoned from different planes of existence. These **extra-planar mounts** need special care and typically scare most common folk. However, there are exceptions to the rule, like the unicorn and the pegasus.
+
+| Mount Type    | Monster Type  |
+|---------------|---------------|
+| common        | Beast (Large or smaller, herbivorous), Celestial (Pegasus, Unicorn)
+| dangerous     | Beast (Huge or larger, carnivorous), Monstrosity
+| exotic        | Construct, Dragon, Giant, Ooze, Plant, Undead
+| extra-planar  | Aberration, Celestial, Elemental, Fey, Fiend
+
+### Maintenance of a Mount
+
+While finding accommodation for the most mounted beast may be trivial, an Innkeeper may refuse to offer your mount stabling, if they deem it too dangerous.
+Most taverns on the material plane would not want your **Hellhound Mount** in their stable.
+Afraid it might burn the stable down or eat the other steeds.
+Some might even have problems with a **Bear Mount** or a **Tiger Mount**.
+However, a simple Charisma (Persuasion) check might do the trick in addition to increased payment of cause.
+
+Charisma (Persuasion) DC of Innkeepers regarding housing a mount.
+| DC    | Type          |
+|-------|---------------|
+| 15    | dangerous
+| 17    | exotic
+| 20    | extra-planar
+
+A common mount has the cost of 5 cp for feed and 5 sp for stabling per day.
+
+| Type          | Feed      | Stabling  | Prerequisite |
+|---------------|-----------|-----------|--------------|
+| common        |  5 cp     |  5 sp     |
+| dangerous     |  1 sp     |  1 gp     |
+| exotic        |  2 sp     |  2 gp     |
+| extra-planar  |  1 gp     |  5 gp     |
+
+### Care of an Exotic or Extra-Planar Mount
+
+A special mount requires special treatment.
+A wolf may need to hunt from time to time.
+A hell hound may need to bath in fire from time to time.
+A fey mount may need to visit (silvan) woods to restore its energy.
+
 ## Mounts
 
 The following mounts are designed to be used by the mounted combat rules introduces in the article "Jumping on Mounted Combat" by Willy Abeel in the first issue of [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs) produced by MCDM.
