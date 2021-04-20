@@ -274,6 +274,11 @@ Each action should represent a feature of the creature.
 It should fit and feel real.
 In the best case these features are unique to the mount.
 
+> Variant Rule: rest based actions
+> either 3/day = short rest, 1/day = long rest
+> or 3/day = 1 slot on a short rest and all 3 on a long rest
+> and 1/day = 1 slot on a long rest
+
 | HP    | temporary HP  |
 |-------|---------------|
 | 1-9   | 5 times the rider’s character level or challenge rating
