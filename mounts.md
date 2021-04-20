@@ -498,3 +498,22 @@ In the best case these features are unique to the mount.
 
 ## Licensing
 The mounts and the spell variants are to be considered [open game content](OGL.md). Any flavor text (that might be added later) is considered [CC-BY-SA-4.0](LICENSE.md). Feel free to credit me even if you only use OGL content though, it would be much appreciated.
+
+## TODO
+- basic
+  - Giant Moth Mount
+  - Yak Mount
+- dangerous
+  - Bear
+  - Dinosaurs
+    - Triceratops
+    - Raptor
+  - Mammoth
+  - Tiger
+- exotic
+  - Ooze
+  - Phoenix
+- extra-planar
+  - Hellhound
+
+## class specific mounts??? better class options that integrate into mounted combat!!!!
