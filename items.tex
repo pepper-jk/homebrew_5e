@@ -194,7 +194,84 @@ The manual then loses its magic, but regains it in ten years.\\
     \label{table_maneuvers}
 \end{table}
 
-\pagebreak
+% \pagebreak
+
+\DndItemHeader{Ring of Horeos}{Ring, legendary (requires attunement)}
+
+These magic rings were crafted by the Lunar priests of Selûne over a century ago.
+They were distributed to the most honorable among the knights of Selûne and Valor Guardians.
+It is unknown to most how many were created and most of them were lost during the Siege of Murann.
+The rings that remain lie dormant until a worthy heir appears before them, who carries a love for Murann in their heart.
+
+\paragraph{Sentience}
+A \textit{ring of heroes} is a sentient neutral good item with an Intelligence of 12, a Wisdom of 10, and a Charisma of 12.
+It has hearing and normal vision out to a range of 60 feet.
+The ring communicates by transmitting emotions, sending a tingling sensation through the wielder's hand when it wants to communicate something it has sensed.
+It can communicate more explicitly, through visions or dreams, when the wielder is either in a trance or asleep.
+
+\paragraph{Personality}
+Every \textit{ring of heroes} seeks to protect Murann at all costs.
+It is reluctant to leave the city.
+It likes everything moon related and is faithful to Selûne.
+When fighting evil shapechangers, specifically lycanthropes, it enjoys itself.
+Otherwise the personality resembles the one of its previous wielder(s).
+
+\paragraph{Dormant}
+A \textit{ring of heroes} grants the following benefits in its dormant state:
+\begin{itemize}
+    \item A \textit{ring of heroes} acts as a \textit{Ring of Spell Storing}.
+    \item During a long rest you can choose 5 levels worth of spells from the moon spell list to fill the rings slots.
+    % TODO: what is the spell casting modifier?
+\end{itemize}
+
+\paragraph{Awakened}
+Once a \textit{ring of heroes} reaches an awakened state, it gains the following properties:
+
+\begin{itemize}
+    \item \textbf{Perceive True Shape}
+    You can perceives the original form of a shapechanger or a creature that is transformed by magic within 60ft.
+    You gain Darkvision out to 60 feet, as long as it is not new moon.
+    During a full moon you gain Truesight out to 60 feet.
+    If you already have either Darkvision or Truesight, your range increases by 60 feet instead.
+    \item \textbf{Turn Lycanthropes}
+    Once per day as an action, you present the ring and it shines a bright moon light.
+    Each lycanthrope that can see within 30 feet of you must make a Wisdom saving throw.
+    If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
+
+    A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+\end{itemize}
+
+% FIXME: additional slots? maybe split slots (2 awakened, 3 exalted) (1 awakened, 1 exalted)
+
+\paragraph{Exalted}
+Once a \textit{ring of heroes} reaches an exalted state, it gains the following properties:
+
+\begin{itemize}
+    \item The ring stores an additional five slots worth of spells that can only be used by the moon spell list.
+    \item \textbf{Temporal Salvation}
+    If you die while wearing this ring, you vanish and reappear in an unoccupied space within 5 feet of the space you left (or the nearest unoccupied space).
+    You have a number of hit points equal to 3d6 + your Constitution modifier.
+    If your hit point maximum is lower than the number of hit points you regain, your hit point maximum rises to a similar amount.
+    If you have any levels of exhaustion, reduce your level of exhaustion by 1.
+    Once this feature is used, it can not be used again until the next full moon.
+    \item \textbf{Moon Chosen}
+    If you wear this ring you ignore the lineage (race) requirement, when attuning to a \textit{Moonblade}.
+    (You do not need to be attuned to the ring to benefit from this.
+    But the ring needs to be in its exalted state.)
+\end{itemize}
+
+\begin{table}
+    \centering
+    \begin{dndtable}[XX]
+        \textbf{Level} & \textbf{Spells} \\
+        1 & faerie fire \\
+        2 & calm emotions, moonbeam \\
+        3 & moon blade \\
+        5 & moon path \\
+    \end{dndtable}
+    \caption{Moon spell list}
+    \label{table_moon_spells}
+\end{table}
 
 \DndItemHeader{Ring of Rings}{Ring, uncommon}
 
@@ -215,8 +292,6 @@ If you take the ring off, any other ring created by it disappears and ring assum
 
 If you create a ring that bears status, for example a sigel ring of a family other then your own, the creature inspecting the ring makes a Wisdom (Insight) check against your Charisma (Deception) check.
 On a success, they notice that the ring is a fake just as they would with a badly forged ring.
-
-\pagebreak
 
 \DndItemHeader{Rings of Sending}{Ring, uncommon}
 
