@@ -1,0 +1,258 @@
+% Changing book to article will make the footers match on each page,
+% rather than alternate every other.
+%
+% Note that the article class does not have chapters.
+\documentclass[letterpaper,10pt,twoside,twocolumn,openany]{book}
+
+% Use babel or polyglossia to automatically redefine macros for terms
+% Armor Class, Level, etc...
+% Default output is in English; captions are located in lib/dndstring-captions.sty.
+% If no captions exist for a language, English will be used.
+%1. To load a language with babel:
+%   \usepackage[<lang>]{babel}
+%2. To load a language with polyglossia:
+%   \usepackage{polyglossia}
+%   \setdefaultlanguage{<lang>}
+\usepackage[english]{babel}
+%usepackage[italian]{babel}
+% For further options (multilanguage documents, hypenations, language environments...)
+% please refer to babel/polyglossia's documentation.
+
+\usepackage[utf8]{inputenc}
+\usepackage{hang}
+\usepackage{hyperref}
+\usepackage{lipsum}
+\usepackage{listings}
+\usepackage{tablefootnote}
+
+\usepackage{dnd}
+
+\lstset{
+    basicstyle=\ttfamily,
+    language=[LaTeX]{TeX},
+}
+
+% Start document
+\begin{document}
+\footnotesize
+
+\begingroup
+\DndSetThemeColor[PhbMauve]
+
+\chapter{Retainer TL:DR}
+\label{ch:retainers_short}
+
+\subsection{Initiative}
+Retainers act on your initiative.
+
+\subsection{Health Levels, Not Hit Points}
+So, retainers do not track hit points, but rather \textbf{health levels}. A retainer has health levels equal in number to their level. Each time a retainer is hit by an attack, they make a \textbf{Constitution saving throw}. The DC is the average damage from the attack.\\
+If they succeed, they take no damage. If they fail, they lose one health level per die of damage from the attack. If they lose their final health level, they drop unconscious and use the normal rules for dying.
+
+\subsection{Healing}
+Retainers regain a health level \textbf{after each short rest}, and \textbf{each die of healing} used on them recovers one health level. Retainers regain all health levels on a long rest.
+
+\subsection{Abilities and Skills}
+A retainer has a primary ability and various skills. Normally, they roll ability checks with a +3 bonus. They gain an extra +1 bonus to ability checks made with their primary ability, and an extra +2 bonus to ability checks made with their primary skills.
+
+\begin{DndSidebar}{}
+    \textbf{+3}, additionally \textbf{+1} on primary ability, additionally \textbf{+2} on primary skill
+\end{DndSidebar}
+
+\subsection{Saving Throws}
+Normally, a retainer rolls saving throws with a +3 bonus, and they gain an extra +3 bonus on saves made with the abilities listed on their card.\\
+They save against spells just like PCs do, but if they succeed on a save, they lose health levels equal to half the spell level. If they fail they lose health levels equal to the spell level.
+
+\begin{DndSidebar}{}
+    \textbf{+3}, additionally \textbf{+3} on the listed saves
+\end{DndSidebar}
+
+\subsection{Attacking}
+If your PC hits an enemy, your follower hits with their signature attack.
+If you miss, or if you simply don’t attack on your turn, then you make an attack roll for your follower.
+\textbf{Retainers get +6 to hit with their attacks.} This doesn’t change. At the GM’s discretion, you could improve this bonus by 1 at 5th and 7th level.
+
+\subsection{Spells and DCs}
+Retainers’ spells and actions that require a saving throw start with DC 13 at 3rd level, improve to DC 14 at 5th level, and finally improve to DC 15 at 7th level. If a retainer makes a \textbf{spell attack}, it uses the same \textbf{+6} that retainers get to all attacks.
+
+\begin{dndtable}
+    \textbf{Level}  &   \textbf{Spell Save DC}\\
+    3rd             &   13\\
+    5th             &   14\\
+    7th             &   15\\
+\end{dndtable}
+
+\subsection{Experience}
+Your retainers \textbf{level up once every two times your PC levels up}, capping out at 7th level. They gain special actions at 5th and 7th level.
+
+\chapter{The DM Retainer}
+
+When alternating DMs per session, adventure ark or one-shot,
+a DM may face the dilemma of wanting to continue to play their character
+even though it is their turn to run the game.
+
+Maybe they bonded with another character and can't see them splitting up so soon,
+or they are just restless for adventure.
+No matter the reason, the DM should have a reasonable way to roleplay his character in his own game,
+while letting the players shine and without slowing down the game.
+
+Enter the \textbf{DM Retainer}.
+
+A retainer is a follower with minimalistic statistics and actions, that can easily be managed by a player in combat in addition to their character.
+
+While running the DMs character as a full PC or with a full NPC stat block, would slow the game down significantly.
+Giving a player control over a simplified version of the character in combat
+and roleplaying the character like an following NPC,
+does not.
+
+\begin{DndComment}{DM PC}
+    A DM PC, for those unfamiliar, is a player character run by the DM, as if he was another player.
+\end{DndComment}
+
+%When running a series of one-shot adventures centered around an adventuring guild,
+
+\section{Converting a PC}
+
+While the retainer keeps their AC, the PC retainer uses \textbf{health levels}, equal to its level, instead of \textbf{hit points}.% (see chapter~\ref{ch:retainers_short}).
+
+Further more, converting a player character (PC) requires limiting the actions the PC has and flatten ability modifiers, skill bonuses and saving throws.
+
+First and foremost, we need to reduce the complexity of the character in combat.
+
+\subsection{Actions}
+For this, we reduce the number of actions it can take.
+Choose a weapon attack or a cantrip as the \textbf{signature attack}.
+
+\paragraph{Special Actions}
+A retainer has three \textbf{special actions} depending on its level
+It gets access to them at 3rd, 5th and 7th level.
+These may be actions, bonus actions or reactions.
+Whatever suites the character best.
+
+For example, a rogue might get their \textit{cunning action} as a bonus action, their \textit{uncanny dodge} as a reaction or a \textbf{signature attack} using their \textit{sneak attack} as an action.
+All of these are viable options for special actions.
+
+Remember though that you can only chose one trait or action your PC knows per special action.
+Your PC is currently a retainer and retainers are not as powerful as the party they follow.
+They are the heros after all.
+For this adventure at least.
+
+\begin{DndComment}{Out of Combat}
+    You may find this limiting and find your character not adequately represented.
+    Of cause, you are free to add non-combat related feats and spells, such as \textit{mage hand} or \textit{Position of Privilege} from the noble background, if they would apply to your PC.
+    Keep in mind though not to overwhelm your fellow player with too much options and information.
+    You will roleplay the character anyway.
+    You just want to give them options they really need.
+\end{DndComment}
+
+\subparagraph{Spellcasters} may choose a spell they can cast at least three times and use it as 3/Day action
+or a spell they can cast at least once as a 1/Day action.
+
+\subparagraph{Non-casters} or half-caster are less strait forward.
+Look through your class and subclass features.
+A battle master may use a maneuver, a paladin a smite, a bard their bardic inspiration.
+
+Most of all look for abilities that your character uses regularly or that fit his personality best.
+Once you got your actions figured out, you may call it a day.
+Write up the ability scores, skills and saving throws, like with any NPC stat block.
+Or you can simplify your character even more.
+
+\subsection{Ability checks}
+Just for the time your friends use your character, you can flatten the numbers a bit.
+Like a normal retainer, your PC now has +3 on all ability checks.
+
+At lower levels this might make the character seem more powerful, but remember they are not the hero anymore.
+They will not attempt many ability checks anyway.
+And if they do, it would be better if the retainer had a higher chance of helping a desperate party.
+
+\subparagraph{Primary Ability}
+Choose at least one and a maximum of two abilities.
+Checks made with these abilities get an addition +1, so +4 total so far.
+
+\subparagraph{Skills}
+Choose two to four skills your PC knows.
+%TODO: based on number of skills class gets
+Each check made with those skills gains a +2, so +6 total if it also the primary ability and +5 if not.
+
+Now lets look at saving throws.
+
+\subsection{Saving throws}
+
+All saves are made with at least +3, from the ability.
+Choose two to three saving throws your PC knows.
+Your retainer gets a +3 bonus for them, so a total of +6.
+
+Again this looks powerful, especially at low levels.
+But you also do not want your retainer to die easily, right?
+
+\subsection{Experience for DM Retainers}
+
+DM retainers level up with the group like normal.
+This way the group can play the next adventure together also, which is the whole point of this chapter.
+
+\subparagraph{Loot}
+The DM retainer should not get any loot out of the adventure, however.
+This way DMs are not tempted to give themselves loot they desire.
+Also their character is not the hero of this session, so they should not be rewarded equally to the other players who played the adventure.
+They already get the extra experience.
+
+\begin{DndComment}{DM Retainer Level}
+    Usually the DM retainer is the same level as the party, as they traveled and adventured together before.
+
+    However, if you want to introduce a new PC of yours, who just joined the guild, you might want to introduce him as a regular retainer.
+    Meaning he is half level compared to the rest of the party and an actual \textbf{retainer} looking to join the guild.
+
+    Keep in mind this makes them more likely to die, as they have half as many health levels.
+    So you might not want to do this in a high lethality game, provided you want your new character to live through the session.
+\end{DndComment}
+
+\subsection{Closing Words}
+
+Now you are done.
+You converted your PC to a retainer.
+This will make it much easier for the players to utilize him in combat, without slowing anything down.
+
+Everything else works like described in the former section.
+
+\chapter{Retainers Murann}
+
+\begin{dndtable}
+    \textbf{NPC}            &   \textbf{Retainer Class}\\
+    Aliara Retus            &   Curate\\
+    Araphine                &   Healer (Medium Armor)\\
+    Eduardo Escurdo         &   Executioner\\
+    Johanna Hatara          &   Seer\\
+    %Kipp                    &   ?\\
+    %Lezana?                 &   ?\\
+    Maja                    &   Cutpurse\\
+    Sadon Montegue          &   ?\\
+    Yasheira Vemmil-Jassan  &   Loremaster
+\end{dndtable}
+
+\section{Artisans Murann}
+
+\begin{dndtable}
+    \textbf{NPC}            &   \textbf{Artisan}\\
+    Eduardo Escurdo         &   Spy\\
+    Sadon Montegue          &   Captain
+\end{dndtable}
+
+\subsection{The Captain}
+The first thing your captain does is supervise construction of a barracks. Your barracks temporarily upgrades the experience level of some number of units by one—green units become regular, regular units become seasoned, etc.\\
+Your barracks can upgrade a number of units equal to its level. It begins at 1st level (one unit affected) and can be upgraded to 5th level (5 units affected). The units affected are chosen at the start of a battle and cannot be changed until the next battle.\\
+See Strongholds \& Followers \textbf{p.86-87} for more information.
+
+\subsection{The Spy}
+
+Your spy makes it much harder for your enemies and even your allies to know what you’re up to. Your spy increases the DC for agents spying on you by 3 plus 1 per level of your spy’s network.\\
+In addition, your spy knows which nearby folk might be interested in signing on to your service. Each time you roll on your followers chart, the spy lets you increase or decrease your roll by up to 3 plus 1 per level of your network. By this method you gain some measure of control over whom you recruit.\\
+See Strongholds \& Followers \textbf{p.94} for more information.
+
+\subsubsection{Spying}
+
+If your spy is sent on a mission to gather information on a specific creature or location, you roll a \textbf{d20 and add 3 plus 1 per level} of your spy's network.
+
+\endgroup
+
+% End document
+\end{document}
