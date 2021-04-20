@@ -232,6 +232,214 @@ This section covers the most common mounts an adventuring party may start out wi
 >***Step Out.*** If the horse is approached by an opponent from the rear, meaning a creature enters a space behind it, the rider may use their reaction and let the horse perform a **Combat Stomp** as an attack of opportunity.
 >___
 
+### Basic Mounts
+
+>___
+>## Giant Boar Mount
+>*Large beast, unaligned*
+>___
+>- **Armor Class** 12 (natural armor)
+>- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
+>- **Hit Points** 42 (5d10 + 15)
+>- **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|17 (+3)|10 (+0)|16 (+3)|2 (-4)|7 (-2)|5 (-3)|
+>___
+>- **Senses** passive Perception 8
+>- **Languages** —
+>- **Challenge** 2 (450 XP)
+>___
+>***Charge.*** If the boar moves at least 15 feet straight toward a target it starts charging.
+>
+>***Mounted.*** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
+>
+>***Relentless (Recharges after a Short or Long Rest).*** If the boar takes 10 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.
+>
+>### Actions
+>***Combat Tusk.***
+  Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage,
+  or 17 (4d6 + 3) slashing damage if the boar is charging on the same turn.
+  If the target is a Medium or smaller creature, it must succeed on a DC 11 + PB Constitution saving throw or be restrained.
+  The creature may repeat the saving throw at the end of its turn.
+>
+>***Gorge (3/Day).***
+  Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 3) bludgeoning damage,
+  or 17 (4d6 + 3) bludgeoning damage if the boar is charging on the same turn.
+  If the target is a Medium or smaller creature, it must succeed on a DC 11 + PB Constitution saving throw or be poisoned until it finishes a short rest.
+>
+>### Reactions
+>***Run Over.*** ???
+  If the boar or its rider are hit by a melee attack, the boar may try to run the attacker over.
+  It moves half its movement through the space of the attacker.
+  The attacker needs to succeed a DC 11 + PB Strength saving throw or be knocked prone.
+>___
+
+>___
+>## Giant Goat Mount
+>*Large beast, unaligned*
+>___
+>- **Armor Class** 11 (natural armor)
+>- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
+>- **Hit Points** 19 (3d10 + 3)
+>- **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|17 (+3)|11 (+0)|12 (+1)|3 (-4)|12 (+1)|6 (-2)|
+>___
+>- **Senses** passive Perception 11
+>- **Languages** —
+>- **Challenge** 1/2 (100 XP)
+>___
+>***Charge.*** If the goat moves at least 15 feet straight toward a target it starts charging.
+>
+>***Sure-Footed.*** The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.
+>
+>***Mountain Breed.*** The goat ignores difficult terrain and its long and high jump are 30 feet.
+>
+>***Mounted.*** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
+>
+>### Actions
+>***Combat Ram.***
+  Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage,
+  or 13 (4d4 + 3) bludgeoning damage if the goat is charging on the same turn.
+  If the target is a Medium or smaller creature, it must succeed on a DC 11 + PB Strength saving throw or be knocked prone.
+>
+>***High Ground.***
+  The goat needs to stand at least 10 feet higher than the target to use this action.
+  The goat sprints down from its higher position, using gravity to gain speed.
+  The target gets knocked prone immediately and has to make a DC 9 + PB Constitution saving throw, taking 17 (4d6 + 3) bludgeoning damage on a failed save and half as much on a successful one.
+>
+>***Dogfight (3/Day).***
+  The goat attacks with **Combat Ram** uses it horns to lock a target into single combat.
+  Until the target succeeds a DC 11 + PB Strength saving throw, it can only attack the goat or its rider.
+  The target can make the saving throw at the end of its turns.
+>___
+
+>___
+>## Yak Mount
+>*Large beast, unaligned*
+>___
+>- **Armor Class** 10
+>- **Hit Points** 15 (2d10 + 4)
+>- **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|10 (+0)|14 (+2)|2 (-4)|10 (+0)|4 (-3)|
+>___
+>- **Senses** passive Perception 10
+>- **Languages** —
+>- **Challenge** 1/4 (50 XP)
+>___
+>***Beast of Burden.*** The yak is considered to be a Huge animal for the purposes of determining its carrying capacity.
+>
+>***Charge.*** If the yak moves at least 15 feet straight toward a target it starts charging.
+>
+>### Actions
+>***Combat Gore.***
+  Melee Weapon Attack: +4 + PB to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage,
+  or 14 (3d6 + 4) bludgeoning damage if the goat is charging on the same turn.
+  If the target is a Medium or smaller creature, it must succeed on a DC 12 + PB Strength saving throw or be knocked prone.
+>
+>TODO
+>___
+
+### Dangerous Mounts
+
+>___
+>## Giant Spider Mount
+>*Large beast, unaligned*
+>___
+>- **Armor Class** 14 (natural armor)
+>- **Temporary Hit Points** 4 times the rider’s character level or challenge rating
+>- **Hit Points** 26 (4d10 + 4)
+>- **Speed** 30 ft., climb 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|16 (+3)|12 (+1)|2 (-4)|11 (+0)|4 (-3)|
+>___
+>- **Skills** Stealth +7
+>- **Senses** blindsight 10 ft., darkvision 60 ft., passive Perception 10
+>- **Languages** —
+>- **Challenge** 1 (200 XP)
+>___
+>***Mounted.*** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
+>***Roof Crawler.*** When walking on ceilings the spider automatically makes a Dexterity (Stealth) check with advantage, benefiting from it like when using the Hide action.
+>***Sneak Attack.***
+  The spider benefits from sneak attack
+  when it hits a target with a weapon attack and has advantage on the attack roll,
+  or when the target is within 5 feet of an ally of the spider that isn't incapacitated
+  and the spider doesn't have disadvantage on the attack roll.
+>***Spider Climb.*** The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+>
+>***Web Sense.*** While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.
+>
+>***Web Walker.*** The spider ignores movement restrictions caused by webbing.
+>
+>### Actions
+>***Bite.***
+  Melee Weapon Attack: +5 to hit, reach 5 ft., one creature.
+  Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 9 + PB Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one.
+  If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.
+>
+>***Web (3/Day).***
+  Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature.
+  Hit: The target is restrained by webbing.
+  As an action, the restrained target can make a DC 10 + PB Strength check, bursting the webbing on a success.
+  The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).
+>
+>***Death from Above (1/Day).***
+  The spider makes a **Bite** attack and deals an extra 9 (2d8) piercing damage
+  if it would benefit from **Sneak Attack**.
+  If the target is reduced below half hit points
+  it gets paralyzed until end of its next turn
+  and the spider restrains it with webbing.
+>___
+
+### Exotic Mounts
+
+>___
+>## Wyvern Mount
+>*Large dragon, unaligned*
+>___
+>- **Armor Class** 13 (natural armor)
+>- **Temporary Hit Points** 0 times the rider’s character level or challenge rating
+>- **Hit Points** 110 (13d10 + 39)
+>- **Speed** 20 ft., fly 80 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|19 (+4)|10 (+0)|16 (+3)|5 (-3)|12 (+1)|6 (-2)|
+>___
+>- **Skills** Perception +4
+>- **Senses** darkvision 60 ft., passive Perception 14
+>- **Languages** —
+>- **Challenge** 6 (2,300 XP)
+>___
+>***Mounted.*** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
+>### Actions
+>***Multiattack.***
+> The wyvern makes two attacks: one with its bite and one with its claws.
+>
+>***Bite.***
+> *Melee Weapon Attack:* +7 to hit, reach 10 ft., one creature.
+> *Hit:* 11 (2d6 + 4) piercing damage.
+>
+>***Claws.***
+> *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target.
+> *Hit:* 13 (2d8 + 4) slashing damage.
+>
+>***Stinger (3/Day).***
+> *Melee Weapon Attack:* +7 to hit, reach 10 ft., one creature.
+> *Hit:* 11 (2d6 + 4) piercing damage.
+> The target must make a DC 13 + PB Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.
+
+### Extra-planar Mounts
+
 ## Creating a Mount
 
 As a lot of people have wondered how to design an Arcadia mount, I decided to write up a quick guide for it.
