@@ -130,9 +130,11 @@ The rings that remain lie dormant until a worthy heir appears before them, who c
 - **Dormant.** A *ring of heroes* grants the following benefits in its dormant state:
   - A *ring of heroes* acts as a *Ring of Spell Storing*.
   - During a long rest you can choose 5 levels worth of spells from the moon spell list to fill the rings slots.
-    > TODO: what is the spell casting modifier?
+    The spell save DC for those spells is 13.
 
 - **Awakened.** Once a *ring of heroes* reaches an awakened state, it gains the following properties:
+  - The ring stores an additional two slots worth of spells that can only be used by the moon spell list.
+  - The save DC of moon spells increases to 15.
   - **Perceive True Shape.**
     You can perceives the original form of a shapechanger or a creature that is transformed by magic within 60ft.
     You gain Darkvision out to 60 feet, as long as it is not new moon.
@@ -145,10 +147,9 @@ The rings that remain lie dormant until a worthy heir appears before them, who c
 
     A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
 
-> FIXME: additional slots? maybe split slots (2 awakened, 3 exalted) (1 awakened, 1 exalted)
-
 - **Exalted.** Once a *ring of heroes* reaches an exalted state, it gains the following properties:
-  - The ring stores an additional five slots worth of spells that can only be used by the moon spell list.
+  - The ring stores an additional three slots worth of spells that can only be used by the moon spell list.
+  - The save DC of moon spells increases to 17.
   - **Temporal Salvation.**
     If you die while wearing this ring, you vanish and reappear in an unoccupied space within 5 feet of the space you left (or the nearest unoccupied space).
     You have a number of hit points equal to 3d6 + your Constitution modifier.
