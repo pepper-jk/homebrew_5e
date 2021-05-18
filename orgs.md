@@ -91,7 +91,51 @@
   Once per battle as a reaction, when an ally drops unconscious you gain a free movement.
   You must move toward them.
   If you end your movement adjacent to them, they might spend a hit die.
-## Murann group
+
+# Murann group titles
+
+## Dreamwalker (Askan)
+**Lucid Dreamer.** *[RP]* You can benefit from a long rest during the dream spell. As long as you do not inflict any damage with the spell, you can cast it even if you do not have any spell slots left.
+
+**Rising Nightmare.** *[combat]* You trigger your foes mind to conjure their last nightmare. As a bonus action, choose three creatures within range (60 feet). They must succeed a Intelligence saving throw or be frightened for 1 minute as they experience a nightmarish vision. As long as they are frightened, every time they get hit by an attack, they take additional 1d4 psychic damage.
+
+This has no effect on constructs. The DC for the save is your spell save DC. You can use this feature once per long rest.
+
+**Inception.** *[intrigue]* Make a Lore test against the enemy's Resolve. If successful, your Intel increases by 1 and you can either increase your Combat Preparations or decrease your enemies by 1.
+
+**Scroll of Mass Dream.** *[warfare]* Select a number of enemy units equal to your command rating. Each unit must pass a DC 17 Power test or can not act on its next activation.
+
+## Honorblade (Atius)
+**On my honor.** *[RP]* Your reputation precedes you. People usually do not dispute your honor. Whenever you make a Charisma check on the grounds of your honor you gain advantage.
+
+**Pick on somebody your own size.** *[combat]* Dishonorable behavior in battle disgusts you. Once per short rest, if an ally gets hit by a melee weapon attack from a creature with a higher Strength score then them, you can use your reaction to move up to your speed toward the attacking creature.
+If you end your movement in range of your reach to it, you can use one of the following effects:
+- Make a melee attack against it. During the attack you can use a free maneuver using a d8 as the superiority die.
+- You place yourself in front of your ally. Until the end of your allies next turn any creature has disadvantage on attack rolls against them, but advantage against you.
+
+**High Society.** *[intrigue]* You can make Diplomacy tests against Noble Courts and Knightly Orders with advantage. Once you use this feature during an Intrigue, you gain disadvantage on Diplomacy tests against chaotic enemy realms.
+
+*[warfare]*
+
+## Leafwalker (Feredir)
+**Forest Secrets.** *[RP]* You know the secret paths and how to avoid difficult terrain in woodland areas. When you are not in combat, you (and companions you lead) can travel between any two locations in a forest twice as fast as your speed would normally allow.
+
+**Natural Healing.** *[combat]* You know about the natural flow of magic a forest uses to heal itself and can channel this energy to heal your companions. While in forest terrain, as a reaction to any ally dropping to 0 hit points you can cast *mass cure wounds* at base level. Once you have used this feature, you can not use it again until you finish a long rest.
+
+**Deer Path.** *[intrigue]* Your Operation tests done in forest terrain have advantage.
+
+**Survivors.** *[warfare]* Choose a number of units with Light Equipment equal to your command rating. While in forest terrain these units gain advantage on either Power and Moral tests, you choose.
+
+## Shadow Dancer (Aseir)
+**Fleeting Feet.** *[RP]* As long as your companions are within 15 ft. of you, they benefit from your Stealth check, while "traveling".
+
+**Shadow Dance.** *[combat]* If you would normally reveal your position as you attack, you can make a Dexterity (Stealth) check with disadvantage to stay hidden instead.
+
+**Shadow Mission.** *[intrigue]* Make an Espionage check against the enemy's Resolve. If successful their Combat Readiness goes down 2 steps.
+
+**Twilight.** *[warfare]* As a bonus action choose an allied unit with Light Equipment. It becomes **Hidden** for a number of rounds equal to your command rating.
+
+### upcoming ideas
 - Aseir
   - Visionary.
     - makes plans
@@ -117,23 +161,10 @@
     - [warfare] **Traitors.**
       Choose a number of enemy units equal to your command rating.
       Each unit must pass a DC 15 Moral test or suffer 1 casualty. (num casualties?)
-  - Shadow Dancer.
-    - stealth themed
-    - (additional sneak attack?)
-    - [RP]
-      As long as your companions are within 15 ft. of you, they benefit from your Stealth check, while "traveling".
-    - [combat] **Shadow Dance.**
-      If you attack and would normally reveal your position,
-      you can make a Dexterity (Stealth) check with disadvantage to stay hidden instead.
-    - [intrigue] **Shadow Mission.**
-      Make an Espionage check against the enemy's Resolve.
-      If successful their Combat Readiness goes down 2 steps.
-    - [warfare] can switch two unit positions?
-    - [warfare] **Twilight.**
-      As a bonus action choose an allied unit with Light Equipment.
-      It becomes **Hidden** for a number of rounds equal to your command rating.
   - (Spy Master.)
     - [intrigue] adv on espionage tests?
+  - [warfare] can switch two unit positions?
+  - (additional sneak attack?)
 - Atius
   - Chevalier.
     - saves ladies? :D
@@ -142,30 +173,6 @@
       - enemy can not attack anyone else
       - if lawful?
     - [intrigue]
-    - [warfare]
-  - Honorblade.
-    - [RP]
-      People usually do not dispute your honor.
-      Whenever you make a Charisma check on the grounds of your honor you gain advantage?
-      (just saying "I'm honorable." does not count.) ehh...
-    - [combat] **Pick on somebody your own size.**
-      Dishonorable behavior in battle disgusts you.
-      Once per short rest, if an ally gets hit by a melee weapon attack from a creature with a higher Strength score then them, you can use your reaction to move up to your speed toward the attacking creature.
-      If you end your movement in range of your reach to it, you can use one of the following effects:
-      - Make a melee attack against it.
-        During the attack you can use a free maneuver using a d8 as the superiority die.
-      - You place yourself in front of your ally.
-        Until the end of your allies next turn any creature has disadvantage on attack rolls against them, but advantage against you.
-
-      - instead:
-        - damage bonus based on strength (see aasmimar)
-        - bonus for ally:
-          - [x] AC
-          - [ ] tmp HP
-          - [ ] movement
-    - [intrigue] **High Society.**
-      You can make Diplomacy tests against Noble Courts and Knightly Orders with advantage.
-      Once you use this feature during an Intrigue, you gain disadvantage on Diplomacy tests against chaotic enemy realms.
     - [warfare]
   - Myrmidon.
     - [RP]
@@ -185,20 +192,6 @@
       You have advantage to spot hidden creatures in the forest?
     - [intrigue]
     - [warfare]
-  - Leafwalker.
-    - druid, wanderer, tree teleportation
-    - [RP] **Forest Secrets.**
-      You know the secret paths and how to avoid difficult terrain in woodland areas.
-      When you are not in combat, you (and companions you lead) can travel between any two locations in a forest twice as fast as your speed would normally allow.
-    - [combat] **Natural Healing.**
-      You know about the natural flow of magic a forest uses to heal itself and can channel this energy to heal a creature.
-      While in (healthy) forest terrain, as a reaction to any ally dropping to 0 hit points you can cast *mass cure wounds* at base level.
-      Once you have used this feature, you can not use it again until you finish a short rest.
-    - [intrigue] **Deer Path.**
-      Your Operation tests done in forest terrain have advantage.
-    - [warfare]
-      units use your survival skills to maneuver
-      - gain double movement?
   - Wayfarer.
     - "leader"
     - [RP]
@@ -207,27 +200,6 @@
     - [warfare]
   - (treewarden. protector of the forest)
 - Askan
-  - Dreamwalker.
-    - [RP] **Lucid Dreamer.**
-      You can benefit from a long rest during the dream spell.
-      Once per week you may inflict psychic damage during this long rest.
-    - [combat] **Rising Nightmare.**
-      You trigger your foes mind to conjure their last nightmare.
-      As a bonus action choose three creatures within range (60 feet).
-      They must succeed a Intelligence saving throw or be affected by their nightmare.
-      For 1 minute every time they get hit by an attack, they take additional 1d4 psychic damage.
-
-      This has no effect on constructs or creatures with an Intelligence score of 3 or less.
-      The DC for the save is your spell casting modifier.
-      You can use this feature once per long rest.
-
-      > FIXME: why animals
-    - [intrigue] **Inception.**
-      Make a Lore test against the enemy's Resolve.
-      If successful, your Intel increases by 1 and you can either increase your Combat Preparations or decrease your enemies by 1.
-    - [warfare] **Scroll of Mass Dream.**
-      Select a number of enemy units equal to your command rating.
-      Each unit must pass a DC 17 Power test or can not act on its next activation.
   - enchanter.
     - [RP] FIXME
       Once per long rest you get advantage on Charisma (Persuasion) checks.
