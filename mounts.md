@@ -137,7 +137,7 @@ This section covers the most common mounts an adventuring party may start out wi
 >***Wild Charge (3/Day).*** The elk gains resistance to bludgeoning, piercing, and slashing damage, doesn’t provoke opportunity attacks when it moves out of an enemy’s reach, and can move through spaces occupied by other creatures until the end of its turn. Each creature in the elk’s way must make a DC 11 + PB Strength saving throw or take 13 (3d6 + 3) bludgeoning damage and be knocked prone. On a successful save, the creature takes half as much damage and isn’t knocked prone.
 >
 >### Reactions
->***Antler Parry.*** If either the elk or its rider would be hit by a melee attack, the rider may use their reaction to command the elk to use his antlers to fend off the foe. The elk may either oppose disadvantage against the melee attack or add 2 to its AC and the AC of its rider against all melee attacks from the foe.
+>***Antler Parry.*** If either the elk or its rider would be hit by a melee attack, the rider may use their reaction to command the elk to use his antlers to fend off the foe. The elk adds 5 to its AC or its rider's against the attack.
 >___
 
 >___
@@ -259,13 +259,13 @@ This section covers the most common mounts an adventuring party may start out wi
 >
 >### Actions
 >***Combat Tusk.***
-  Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage,
+  Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage,
   or 17 (4d6 + 3) slashing damage if the boar is charging on the same turn.
   If the target is a Medium or smaller creature, it must succeed on a DC 11 + PB Constitution saving throw or be restrained.
   The creature may repeat the saving throw at the end of its turn.
 >
 >***Gorge (3/Day).***
-  Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 3) bludgeoning damage,
+  Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one target. Hit: 7 (1d6 + 3) bludgeoning damage,
   or 17 (4d6 + 3) bludgeoning damage if the boar is charging on the same turn.
   If the target is a Medium or smaller creature, it must succeed on a DC 11 + PB Constitution saving throw or be poisoned until it finishes a short rest.
 >
@@ -382,12 +382,12 @@ This section covers the most common mounts an adventuring party may start out wi
 >
 >### Actions
 >***Bite.***
-  Melee Weapon Attack: +5 to hit, reach 5 ft., one creature.
+  Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one creature.
   Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 9 + PB Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one.
   If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.
 >
 >***Web (3/Day).***
-  Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature.
+  Ranged Weapon Attack: +3 + PB to hit, range 30/60 ft., one creature.
   Hit: The target is restrained by webbing.
   As an action, the restrained target can make a DC 10 + PB Strength check, bursting the webbing on a success.
   The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).
@@ -426,15 +426,15 @@ This section covers the most common mounts an adventuring party may start out wi
 > The wyvern makes two attacks: one with its bite and one with its claws.
 >
 >***Bite.***
-> *Melee Weapon Attack:* +7 to hit, reach 10 ft., one creature.
+> *Melee Weapon Attack:* +4 + PB to hit, reach 10 ft., one creature.
 > *Hit:* 11 (2d6 + 4) piercing damage.
 >
 >***Claws.***
-> *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target.
+> *Melee Weapon Attack:* +4 + PB to hit, reach 5 ft., one target.
 > *Hit:* 13 (2d8 + 4) slashing damage.
 >
 >***Stinger (3/Day).***
-> *Melee Weapon Attack:* +7 to hit, reach 10 ft., one creature.
+> *Melee Weapon Attack:* +4 + PB to hit, reach 10 ft., one creature.
 > *Hit:* 11 (2d6 + 4) piercing damage.
 > The target must make a DC 13 + PB Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.
 
