@@ -1,0 +1,487 @@
+\documentclass[letter,10pt,twocolumn,openany]{dndbook}
+
+% Use babel or polyglossia to automatically redefine macros for terms
+% Armor Class, Level, etc...
+% Default output is in English; captions are located in lib/dndstring-captions.sty.
+% If no captions exist for a language, English will be used.
+%1. To load a language with babel:
+%	\usepackage[<lang>]{babel}
+%2. To load a language with polyglossia:
+%	\usepackage{polyglossia}
+%	\setdefaultlanguage{<lang>}
+\usepackage[english]{babel}
+% For further options (multilanguage documents, hypenations, language environments...)
+% please refer to babel/polyglossia's documentation.
+
+\usepackage[utf8]{inputenc}
+\usepackage[singlelinecheck=false]{caption}
+\usepackage{lipsum}
+\usepackage{listings}
+\usepackage{shortvrb}
+\usepackage{stfloats}
+\usepackage{hyperref}
+
+\captionsetup[table]{labelformat=empty,font={sf,sc,bf,},skip=0pt}
+
+\MakeShortVerb{|}
+
+\lstset{%
+  basicstyle=\ttfamily,
+  language=[LaTeX]{TeX},
+  breaklines=true,
+}
+
+\title{The Chronicle of Finellah}
+\author{Jens Keim\\(aka pepper-jk)}
+\date{\today}
+
+\begin{document}
+
+\frontmatter
+
+\maketitle
+
+\tableofcontents
+
+\mainmatter
+
+\section{Foreword}
+
+Fionnghuala (Finellah) is a fey demi-deity worshiped by rangers.
+This book contains her research on archfey and their customs.
+Specifically she focuses on the conflict between the Seelie and Unseelie Court.
+As a veteran of the last big conflict between Titania and her sister the Queen of Air and Darkness,
+she is looking to resolve the situation.
+And she might finally have found a way to defeat the utterly corrupted evil queen of Pandemonium.
+
+From time to time the book might slip into a journal type of writing,
+after all it is Finellah's diary.
+
+\subsection{Inspiration}
+
+In respectful memory of Carl Sargent.
+
+This supplement takes inspiration by many official sources of older editions of dungeons and dragons.
+The most dominant are listed here:
+
+\begin{itemize}
+    \item The Sylvan Gods [Monster Mythology]
+    \item Elven Pantheon [Demihuman Deities]
+    \item Forgotten Faiths [Dragon Magazine 259]
+    \item Nature Spirits an Fey Powers [Dragon Magazine 376]
+    \item Seelie and Unseelie Courts [Fey Feature, 3.5 D\&D Archive]
+\end{itemize}
+
+Some archfey described here are mentioned briefly in the Sword Coast Adventurer's Guide.
+But the book does not go into much detail.
+Which is why I researched in older editions and added some lore myself.
+
+\small
+
+\chapter{Lore}
+
+\section{fairytale of queens corruption}
+
+The conflict between Titania and her sister reaches back farther then the banishment of the elves from Arvandor.
+It began in the pre-historic land of the fey, Ladinion.
+There Titania ruled over all fey from her first Seelie Court.
+Back then she and her younger sister lived in harmony inside their palace.
+
+
+\section{the last conflict}
+
+\section{Unseelie Court}
+
+\section{Seelie Court}
+
+
+\chapter{Locations}
+
+\section{Feywild}
+\section{Pandemonium}
+\section{Material World}
+
+\chapter{Items}
+
+\DndItemHeader{Black Diamond Facet}{Gem (Black Diamond), major tier, artifact (requires attunement)}
+
+The Black Diamond is an ancient artifact.
+Its true origin is unknown, but in prehistoric times it was uncovered by dwarves under a mountain.
+They presented it to the Seelie Court as a gift in good faith.
+Titania's sister, the Queen of Air and Darkness, was utterly corrupted by it,
+which ultimately lead to the destruction of the original sylvan realm.
+
+It is not known when or why exactly the diamond was split into its facets.
+Maybe the queen split them in an attempt to hide the source of her power from her enemies.
+Or she tried to reinforce their avatars and cover more ground for her evil plan to enslave all of the sylvan races.
+Maybe it got shattered during a conflict with Titania and other members of the Seelie Court.
+However it happened though, now the facets spread corruption throughout the planes.
+
+A black diamond facet alone already holds a lot of power,
+when two or more come together their evil magic is said to multiply.
+All ten of them combined could be enough to destroy an entire plane or at least make it uninhabitable.
+
+While within one mile of the Facet, the attuned creature gains the following benefits:
+
+\paragraph{Magic Resistance}
+You have advantage on saving throws against spells.
+
+\paragraph{Mindless Thralls}
+You can control undead, hell hounds and yeth hounds at will.
+You know the location of any undead within one mile of the facet and can call them for help.
+If you do so, they arrive within 1d6 rounds.
+
+\paragraph{Spells}
+You may cast each of the following spells once per day:
+\textit{Circle of Death}, \textit{Create Food and Water}, \textit{Finger of Death}, and \textit{Summon Shadowspawn},
+which is always cast at 5th level and summons one \textbf{shadow spirit} for every three of your spell casting level.
+
+The food created by this item is tainted with a terrible, sweet, addictive substance.
+If a creature consumes the food, it must succeed a DC 13 Constitution saving throw or become addicted.
+The DC increases by 1 for any subsequent consume.
+On a success the creature is immune for 1d4 hours.
+On a failure it is now \textit{dominated} (as per \textit{Dominate Person}) by you.
+It is desperate to receive more of your nourishment, risking anything and everything to obtain it.
+
+\paragraph{Combining Facets}
+If two facets are brought together within 30 feet they fly towards each other and snap together.
+A successful DC 20 Strength (Athletics) check can keep them apart.
+Once they are combined they seem inseparable.
+However, a successful DC 25 Strength (Athletics) check or 27 thunder or magical slashing damage can split them.
+
+When combined the facets grant the following benefits:
+\begin{itemize}
+    \item For each additional facet, you can cast the spells listed above once more per day and the radius of the facets effects increases by one mile.
+    \item You only need to attune to one facet.
+    \item If three facets are combined you can cast \textit{Power Word Kill} or \textit{Psychic Scream} once per day.
+          With five or more facets you can cast one of them three times per day.
+    \item If ten facets are combined ...
+          As a reaction to killing a creature, you can immediately bring them back as an undead servant loyal to you.
+          It regains 100 hit points and goes on the next initiative count winning any ties.
+          Its creature type is undead otherwise it maintains all its features and equipment.
+\end{itemize}
+
+\paragraph{Corruption}
+Whenever a creature attunes to the Black Diamond Facet, that creature must make a DC 20 Charisma shaving throw.
+On a failed save, the creature's alignment changes to chaotic evil.
+
+\paragraph{Destroying a Facet}
+A Black Diamond Facet appears fragile but is impervious to most damage.
+However, it might be destroyed by the following spells:
+\textit{Bigby's Hand} casted at 9th level,
+\textit{Disintegrate},
+\textit{Dispel Evil and Good},
+\textit{Shatter} casted at 5th level or higher,
+or \textit{Transmute Rock}.
+
+The legendary wizard Mordenkainen is able to disjunct a facet (see 2nd edition for \textit{Mordekainen's disjunction}).
+At the DMs discretion Titania or \textbf{a powerful magical artifact} might also be able to destroy a facet.
+
+If a facet is destroyed, an avatar of the queen of air and darkness might materialize and seek revenge.
+
+
+\DndItemHeader{Chronicle of Fionnghuala [fin-ell-ah]}{Book, artifact}
+
+Reading in this book for one hour grants \textit{at least one piece of lore} about Titania, the Summer Queen, and her sister the Queen of Air and Darkness, the conflict between them, an item or a location significant to the conflict.
+The reader makes an Intelligence (Arcana, History, or Investigation) check to determine how much lore they learn during one hour of reading.
+If they pass a DC 10, they learn one additional piece of lore to a total of two.
+If they pass a DC 20, they learn two additional pieces of lore to a total of three.
+
+% FIXME: on a failed save the character does not learn anything?
+% meh for players, but good for evil creatures
+
+At the end of the hour the reader must make a DC 15 Charisma saving throw.
+On a success, the creature becomes immune to the books effect for 24 hours.
+On a failure, the creature takes 4d6 psychic damage and is afflicted by a \textbf{short-term madness}.
+The creature must repeat the saving throw for every hour spent reading until it succeeds.
+If a creature fails the save three times, it is afflicted by a \textbf{long-term madness}.
+
+Creatures with \textbf{Fey Ancestry} have advantage on the saving throw.
+Evil aligned or undead creatures have disadvantage.
+Fey and swanmways carrying a simulacra feather automatically succeed.
+
+If a creature reads in the book for 24 hours over the cause of 6 days, it must repeat the saving throw again.
+Even if it was immune for the next 24 hours.
+On a failure, it is afflicted by an \textbf{indefinite madness}.
+On a success, the creature becomes immune to the books effect indefinitely.
+
+\begin{table}
+    \centering
+    \begin{dndtable}[XX]
+        \textbf{Check Total} & \textbf{Pieces of Lore} \\
+        1-10 & 1 \\
+        11-20 & 2 \\
+        21+ & 3
+    \end{dndtable}
+    \caption{Pieces of Lore DCs based on Intelligence (Investigation) Check.}
+    \label{table_chronicle_lore}
+\end{table}
+
+\paragraph{Destroying the Book}
+The book, along with anything written on its pages, is immune to non-magical damage.
+It can only be destroyed by the following spells:
+\textit{Disintegrate},
+\textit{Dispel Evil and Good},
+\textit{Fireball};
+or by 50 magical slashing damage.
+In addition, the book doesn't deteriorate with age.
+
+If the book is destroyed, roll a d6 on the Seelie Court row of the Servitors chart.
+Whatever creature is summoned will attempt to strike down the creature(s) who caused the destruction of the book.
+Additionally, any swanmays within 5 miles are alerted to the destruction as well and will appear at the location of the destruction within a number of rounds depending on the distance.
+Per mile it takes them 1d6 rounds.
+
+\subsection{Lore}
+This book holds knowledge about the conflict between Titania, the Summer Queen, and her sister the Queen of Air and Darkness.
+It was written by the demi-goddess Fionnghuala and was distributed to her most faithful followers.
+It is unknown how many copies exist in the mundane world.
+As long as they are at most one plane of existence apart from the original,
+a copy updated when Fionnghuala writes into the original.
+However, she always keeps the original,
+which usually means either in the feywild or the material plane.
+If a copy is ever more than one plane of existence away from the original,
+it will receive the updates once it is at most one plane apart again.
+
+% Notes
+% Fionnghuala's [fin-ell-ah] last entry states that she is making a journey to
+% - locate the black diamond facets
+% - find the origin of the black diamonds
+% This was about a century ago
+% Since then she vanished from the material plane.
+
+
+\DndItemHeader{Gem of Brilliance}{Wondrous item (Diamond), major tier, very rare (requires attunement)}
+
+This prismatic diamond emits dim bluish light in a 30-foot radius when at least one undead is within that area. Any undead that starts its turn in that area takes 1d6 radiant damage.
+
+This prism has 50 charges. It regains 1d10 + 5 expended charges daily at dawn. While you are holding it, you can use an action to speak one of four command words to cause one of the following effects:
+
+
+\begin{itemize}
+    \item The first command word causes the gem to shed bright light in a 30-foot radius and dim light for an additional 30 feet.
+          This effect doesn't expend a charge.
+          It lasts until you use a bonus action to repeat the command word or until you use another function of the gem.
+    \item The second command word expends 1 charge and causes the gem to fire a brilliant beam of light at one creature you can see within 60 feet of you.
+          The creature must succeed on a DC 15 Constitution saving throw or become blinded for 1 minute.
+          The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+    \item The third command word expends 5 charges and causes the gem to flare with blinding light in a 30-foot cone originating from it.
+          Each creature in the cone must make a saving throw as if struck by the beam created with the second command word.
+    \item The fourth command word expends 15 charges and causes the gem to cast \textit{prismatic spray} (save DC 18).
+\end{itemize}
+
+When all of the gem's charges are expended, the gem becomes a non-magical jewel worth 50 gp.
+
+
+\DndItemHeader{Instrument of the Seelie Court}{Instrument, rare}
+
+When you play the instrument, you can roll a d6 on the Seelie Court row of the Servitors chart.
+Whatever creature is summoned will aid the creatures who holds the flute.
+Additionally, any fey within 1 mile is alerted to the call for aid as well and will appear within 1d6 rounds.
+They fey will only interfere if their CR is at least half of the highest CR opponent.
+Once this effect is used, the flute can not be used until you take an extended rest at your Stronghold or a Stronghold linked to the Seelie Court.
+
+% TODO: fix make it bless or other buffs? (as Anne hates summons)
+
+\begin{table*}[b]
+    \centering
+    \begin{dndtable}[XXXXXXX]
+        \textbf{Source} & \textbf{Type I} & \textbf{Type II} & \textbf{Type III} & \textbf{Type IV} & \textbf{Type V} & \textbf{Type VI} \\
+        Challenge Rating & 5 & 6 & 7 & 8 & 9 & 10 \\
+        Seelie Court & Mantis Knight & Orchid Count & Korred & Oleander Dragon & Ash Marshal & Autumn or Spring Eladrin \\
+        Unseelie Court & 2 Darkling Elders, 1 Quickling & 2 Redcaps & Bheur Hag & 2 Yeth Hounds & 3 Redcaps & Summer or Winter Eladrin
+    \end{dndtable}
+    \caption{Servitors of the Courts.}
+    \label{table_servitors}
+\end{table*}
+
+
+\DndItemHeader{Wand of the Archfey}{Wand, legendary (requires attunement by a druid, nature cleric, sorcerer, warlock, or wizard)}
+
+\paragraph{Dormant}
+\begin{itemize}
+    \item The wand acts as a +2 rod of the pact keeper.
+    \item The wand has 20 charges for the following properties.
+        It regains 2d6 + 2 expended charges daily at dawn.
+        If you expend the last charge, roll a d20.
+        On a 1, the wand retains its rod of the pact keeper properties but loses all other properties.
+        On a 20, the wand regains 1d12 + 1 charges.
+\end{itemize}
+
+\paragraph{Awakened}
+\begin{itemize}
+    \item The wand acts as a +3 rod of the pact keeper.
+    \item The wand now has 35 charges and regains 3d6 + 2 charges at dawn.
+\end{itemize}
+
+\paragraph{Exalted}
+\begin{itemize}
+    \item The wand acts as a +4 rod of the pact keeper.
+    \item The wand now has 50 charges and regains 4d6 + 2 charges at dawn.
+    \item You can cast \textit{plane shift} (7 charges) now.
+\end{itemize}
+
+\paragraph{Magic Resistance}
+    While holding the wand, you have advantage on saving throws against spells.
+
+\paragraph{Spell Absorption}
+    If you successfully cast \textit{counterspell} with this wand, the wand absorbs the magic of the spell, gaining a number of charges equal to the absorbed spell's level.
+    However, if doing so brings the wand's total number of charges above its maximum, the wand explodes as if you activated its retributive strike (see below).
+
+\begin{DndComment}{Conjure Fey Variant}
+    If you cast conjure fey you can instead summon a d6 fey unit.
+    For every two additional charges you expend the size of the unit increases by one.
+\end{DndComment}
+
+\paragraph{Spells}
+  While holding this wand, you can cast an action expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus:
+  - [3] Counterspell
+  - [4] Silver Wings
+  - [5] [2] shatter
+  - [6] conjure fey
+  - transmutation
+    - [5] animate objects
+    - [5] passwall
+  - enchantment
+    - [4] Charm Monster
+  - illusions
+    - [2] Invisibility
+    - [3] Fear
+    - [4] Greater Invisibility
+    - [4] Hallucinatory Terrain
+    - [5] Mislead
+    - [5] Seeming
+  - teleportation
+    - [4] Dimension Door
+- You can also use an action to cast one of the following spells from the wand without using any charges:
+  - [c] light
+  - [c] message
+  - [1] charm person
+  - [1] protection from evil and good
+  - [2] enlarge/reduce
+  - [2] misty step
+
+\paragraph{Seasonal Magic}
+  Additionally, the wand possesses fey magic like the eladrin.
+  Depending on the season the wand is in, you can cast the following spells:
+  - summer
+    - [4] wall of fire
+    - [6] Investiture of Flame
+    - [7] [3] fireball
+  - winter
+    - [4] Ice Storm
+    - [6] Investiture of Ice
+    - [7] [5] Cone of Cold
+  - autumn
+    - [1] Feather Fall
+    - [3] Thunder Step
+    - [6] Investiture of Wind
+    - [7] [3] lightning bolt
+  - spring
+    - [1] entangle
+    - [3] Plant Growth
+    - [6] Investiture of Stone
+    - [7] [3] Erupting Earth
+- If you are a Fey, have Fey Ancestry, or any other Fey Feat(ure), you can choose a season during a long rest.
+
+\paragraph{Retributive Strike}
+    You can use an action to break the staff over your knee or against a solid surface, performing a retributive strike. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.
+    You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take force damage equal to 16 × the number of charges in the staff. Every other creature in the area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes an amount of damage based on how far away it is from the point of origin, as shown in the following table. On a successful save, a creature takes half as much damage.
+
+% notes spells
+% - 20
+%   - 6, 5, 5, 5, 5, 5, 2, 1, 1
+%   - 35
+% - 50
+%   - 7, 7, 7, 7, 5, 5, 4, 4, 3, 2, 2, 2
+%   - 55
+%   - at will:
+%     - 2, 2, 1, 1, c, c
+%     - 6
+
+% alt spells
+% - [2] detect thoughts
+% - [3] dispel magic
+% - [4] polymorph
+% - [5] wall of force
+% - [5] telekinesis
+% - [7] Teleport
+% - [4] Hold Monster
+
+% alt seasoned spells
+% - [2] flaming sphere
+% - [1] Fog Cloud
+% - [2] Gust of Wind
+% - [2] levitate
+% - [3] fly
+% - [2] spike growth
+% - [3] speak with plants
+
+
+\chapter{Spells}
+
+
+\chapter{Creatures}
+
+\section{Beast Golem}
+\section{Julius}
+\section{Tainted Snow}
+\section{Venna}
+- lich
+- reincarnation of April
+
+\section{Archfey Avatars}
+
+
+\backmatter
+
+\chapter{Licensing}
+
+The magic items, spells and monsters are to be considered \textbf{open game content}, but feel free to credit me.
+
+Any flavor text and art is licensed under \href{https://creativecommons.org/licenses/by-sa/4.0/legalcode}{\textit{Creative Commons Attribution Share Alike 4.0 International}} (\textbf{CC-BY-SA-4.0}).
+
+% \section{Credit}
+
+% \paragraph{Writing} Jens Keim (aka pepper-jk)
+
+\section{Open Game License}
+
+OPEN GAME LICENSE Version 1.0a The following text is the property of Wizards of the Coast, LLC. and is Copyright 2000 Wizards of the Coast, Inc (“Wizards”). All Rights Reserved.
+
+1. Definitions: (a)”Contributors” means the copyright and/or trademark owners who have contributed Open Game Content; (b)”Derivative Material” means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) “Distribute” means to reproduce, License, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d)”Open Game Content” means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) “Product Identity” means product and product line names, logos and identifying marks including trade dress; artifacts; creatures characters; stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, Spells, enchantments, personalities, teams, personas, likenesses and Special abilities; places, locations, environments, creatures, Equipment, magical or supernatural Abilities or Effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the OPEN Game Content; (f) “Trademark” means the logos, names, mark, sign, motto, designs that are used by a Contributor to Identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) “Use”, “Used” or “Using” means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) “You” or “Your” means the licensee in terms of this agreement.
+
+2. The License: This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or Conditions may be applied to any Open Game Content distributed using this License.
+
+3. Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.
+
+4. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, nonexclusive License with the exact terms of this License to Use, the Open Game Content.
+
+5. Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original Creation and/or You have sufficient rights to grant the rights conveyed by this License.
+
+6. Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder’s name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.
+
+7. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a Challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.
+
+8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.
+
+9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.
+
+10. Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You Distribute.
+
+11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.
+
+12. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.
+
+13. Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.
+
+14. Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
+
+15. COPYRIGHT NOTICE
+
+    Open Game License v 1.0a Copyright 2000, Wizards of the Coast, LLC.System Reference Document 5.1 Copyright 2016, Wizards of the Coast, LLC.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.
+
+    The Chronicle of Finellah Copyright 2019-2021, Jens Keim
+
+END OF LICENSE
+
+\end{document}
