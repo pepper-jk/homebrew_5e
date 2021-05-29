@@ -440,6 +440,41 @@ This section covers the most common mounts an adventuring party may start out wi
 
 ### Extra-planar Mounts
 
+>___
+>## Hell Hound Mount
+>*Medium fiend, lawful evil*
+>___
+>- **Armor Class** 15+PB (natural armor)
+>- **Temporary Hit Points** 3 times the rider’s character level or challenge rating
+>- **Hit Points** 45 (7d8 + 14)
+>- **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|17 (+3)|12 (+1)|14 (+2)|6 (-2)|13 (+1)|6 (-2)|
+>___
+>- **Skills** Perception +1+2*PB
+>- **Damage Immunities** fire
+>- **Senses** darkvision 60 ft., passive Perception 15
+>- **Languages** understands Infernal but can't speak it
+>- **Challenge** 3 (700 XP)
+>___
+>***Keen Hearing and Smell.*** The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+>
+>***Mounted.*** For this trait see [Arcadia](https://www.youtube.com/watch?v=oid4QMMXjfs).
+>
+>***Pack Tactics.*** The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally isn't incapacitated.
+>
+>### Actions
+>***Bite.*** *Melee Weapon Attack:* + 3 + PB to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage. A medium or smaller creature becomes grappled (escape DC 11 + PB). Until this grapple ends, the target is restrained and takes 7 (2d6) fire damage on the beginning of its turn.
+>
+> During the grapple the hound can use its action to deal 7 (1d8 + 3) piercing damage. The hound can grapple only one target at a time.
+>
+>***Fire Breath (1/Day).*** The hound exhales fire in a 15-foot cone. Each creature in that area must make a DC 10 + PB Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one.
+>
+> ***Sniff.*** The hound sniffs out targets it can not see. It makes a Wisdom (Perception) check with advantage due to its keen hearing and smell. If the target is within 30ft. of the hound during the hounds turn, the target does not benefit from being hidden or invisible against the hound and its rider until the start of its next turn.
+
+
 ## Creating a Mount
 
 As a lot of people have wondered how to design an Arcadia mount, I decided to write up a quick guide for it.
@@ -514,6 +549,5 @@ The mounts and the spell variants are to be considered [open game content](OGL.m
   - Ooze
   - Phoenix
 - extra-planar
-  - Hellhound
 
 ## class specific mounts??? better class options that integrate into mounted combat!!!!
