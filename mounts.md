@@ -165,7 +165,7 @@ This section covers the most common mounts an adventuring party may start out wi
 >### Actions
 >***Bite.*** Melee Weapon Attack: +1 + PB to hit, reach 5 ft., one target. Hit: 9 (2d4 + 1) piercing damage. If the target is a Medium or smaller creature, it must succeed on a DC 9 + PB Strength saving throw or be knocked prone.
 >
->***Bite down.*** Melee Weapon Attack: +1 + PB to hit, reach 5 ft., one Medium or smaller creature. Hit: 9 (2d4 + 1) piercing damage. The target is grappled (escape DC 9 + PB). Until this grapple ends, the target is restrained and the Mastiff can use its action to deal 9 (2d4 + 1) piercing damage. The mastiff can grapple only one target at a time.
+>***Bite down.*** Melee Weapon Attack: +1 + PB to hit, reach 5 ft., one medium or smaller creature. Hit: 9 (2d4 + 1) piercing damage. The target is grappled (escape DC 9 + PB). Until this grapple ends, the target is restrained and the Mastiff can use its action to deal 9 (2d4 + 1) piercing damage. The mastiff can grapple only one target at a time.
 >
 >***Sniff.*** The mastiff sniffs out targets it can not see. It makes a Wisdom (Perception) check with advantage due to its *Keen Hearing and Smell*. If the target is within 30ft. of the mastiff during the mastiffs turn, the target does not benefit from being hidden or invisible against the mastiff and its rider until the start of its next turn.
 >___
