@@ -1,5 +1,7 @@
 # public speeches and debates
-Both the public speeches and debates are social encounters for the favor of an audience. However, while **public speech** can be resolved as a *skill challenge*,
+
+Both the public speeches and debates are social encounters for the favor of an audience.
+However, while **public speech** can be resolved as a *skill challenge*,
 a **public debate** is a **skill contest** between at least two parties.
 Each skill check is a contest between the players and their opponent.
 A skill contest is not limited by maximum amount of accumulated failures like a skill challenge is.
