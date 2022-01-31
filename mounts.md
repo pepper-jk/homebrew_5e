@@ -328,7 +328,7 @@ This section covers the most common mounts an adventuring party may start out wi
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|18 (+4)|10 (+0)|14 (+2)|2 (-4)|10 (+0)|4 (-3)|
+>|16 (+3)|10 (+0)|12 (+1)|2 (-4)|10 (+0)|6 (-2)|
 >___
 >- **Senses** passive Perception 10
 >- **Languages** —
@@ -339,10 +339,10 @@ This section covers the most common mounts an adventuring party may start out wi
 >***Charge.*** If the yak moves at least 15 feet straight toward a target it starts charging.
 >
 >### Actions
->***Combat Gore.***
-  Melee Weapon Attack: +4 + PB to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage,
-  or 14 (3d6 + 4) bludgeoning damage if the goat is charging on the same turn.
-  If the target is a Medium or smaller creature, it must succeed on a DC 12 + PB Strength saving throw or be knocked prone.
+>***Combat Ram.***
+  Melee Weapon Attack: +3 + PB to hit, reach 5 ft., one target. Hit: 7 (1d6 + 3) bludgeoning damage,
+  or 7 (2d6) bludgeoning damage if the goat is charging on the same turn.
+  If the target is a Medium or smaller creature, it must succeed on a DC 11 + PB Strength saving throw or be knocked prone.
 >
 >TODO
 >___
